@@ -1,0 +1,43 @@
+{
+  "slug": "classy-craft",
+  "name": "Classy Craft Interiors",
+  "logo": "/assets/logo-transparent.png",
+  "address": "Studio address — update before launch",
+  "phone": "+91 70580 88895",
+  "whatsapp": "917058088895",
+  "website": "www.classycraftinteriors.com",
+  "googleMapsUrl": "#",
+  "googleReviewsUrl": "#",
+  "reviews": [
+    {
+      "id": "r1",
+      "author": "Aditi S.",
+      "rating": 5,
+      "text": "Working with the team was a seamless experience. They understood our lifestyle and translated it into a home that is both beautiful and highly functional. The attention to detail in the cabinetry is outstanding."
+    },
+    {
+      "id": "r2",
+      "author": "Rahul M.",
+      "rating": 5,
+      "text": "Transparent pricing, clear timelines, and flawless execution. They transformed our 3BHK into a serene, modern space without any of the typical contractor headaches."
+    },
+    {
+      "id": "r3",
+      "author": "Priya K.",
+      "rating": 5,
+      "text": "Their design philosophy really shows in the final result. Everything feels considered and built to last. It’s a quiet kind of luxury that we appreciate every single day."
+    }
+  ],
+  "theme": {
+    "primary": "",
+    "secondary": "",
+    "accent": "",
+    "background": "",
+    "surface": "",
+    "text": "",
+    "muted": "",
+    "border": "",
+    "cta": ""
+  },
+  "fontPreset": "editorial"
+}

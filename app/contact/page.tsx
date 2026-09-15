@@ -1,8 +1,11 @@
 import ContactForm from '@/components/ContactForm';
+import { companyConfig } from '@/data/company';
+import { getEffectiveContactImage } from '@/lib/studio-overrides';
 
-const livingRoomImg = '/assets/rooms/living room/imgi_11_lr-2-1785987661-X3R94.png';
+const livingRoomImgTemplate = '/assets/rooms/living room/imgi_11_lr-2-1785987661-X3R94.png';
 
 export default function Contact() {
+  const livingRoomImg = getEffectiveContactImage(livingRoomImgTemplate);
   return (
     <main className="page">
       <section className="contact-layout">
@@ -21,7 +24,7 @@ export default function Contact() {
           <div className="contact-note">
             <strong>Prefer WhatsApp?</strong>
             <p>Message us directly for a quicker conversation.</p>
-            <a href="https://wa.me/917058088895?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project." target="_blank" rel="noreferrer">+91 70580 88895</a>
+            <a href={`https://wa.me/${companyConfig.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project.`} target="_blank" rel="noreferrer">{companyConfig.phone}</a>
           </div>
         </div>
       </section>

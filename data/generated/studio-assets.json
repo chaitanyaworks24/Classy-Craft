@@ -1,0 +1,35 @@
+{
+  "rooms": {
+    "kitchen": [],
+    "bedroom": [],
+    "living-room": [],
+    "pooja-room": [],
+    "tv-unit": [],
+    "wardrobes": [],
+    "foyer": [],
+    "crockery-unit": [],
+    "kids-room": []
+  },
+  "projects": {
+    "1bhk1": [],
+    "1bhk2": [],
+    "1bhk3": [],
+    "2bhk1": [],
+    "2bhk2": [],
+    "2bhk3": [],
+    "2bhk4": [],
+    "3bhk1": [],
+    "3bhk2": [],
+    "3bhk4": [],
+    "3bhl3": [],
+    "villa1": [],
+    "villa2": [],
+    "villa4": []
+  },
+  "commercial": {
+    "office": [],
+    "restaurant": [],
+    "shop": []
+  },
+  "highQuality": []
+}

@@ -1,5 +1,4 @@
-import { projects } from '@/data/projects';
-import { roomCollections } from '@/data/rooms';
+import { getEffectiveProjects, getEffectiveRooms } from '@/lib/studio-overrides';
 import { encodeShowcaseToken, DEFAULT_SHOWCASE_SETTINGS } from './showcase-token';
 
 export type ShowcaseItemKind = 'project' | 'portfolio';
@@ -21,41 +20,45 @@ export interface ShowcaseItem {
   budgetMax?: number;
 }
 
-export const ALL_SHOWCASE_ITEMS: ShowcaseItem[] = [];
-
-// 1. Add all full projects
-projects.forEach(p => {
-  ALL_SHOWCASE_ITEMS.push({
-    id: p.slug,
-    kind: 'project',
-    title: p.title,
-    category: p.homeType || p.category,
-    image: p.image,
-    description: p.description,
-    location: p.location,
-    budgetLabel: p.budgetLabel,
-    gallery: p.gallery,
-    beforeImages: p.beforeImages,
-    timelineWeeks: p.timelineWeeks,
-    style: p.style,
-    budgetMin: p.budgetMin,
-    budgetMax: p.budgetMax
+export function getAllShowcaseItems(): ShowcaseItem[] {
+  const items: ShowcaseItem[] = [];
+  
+  getEffectiveProjects().forEach(p => {
+    items.push({
+      id: p.slug,
+      kind: 'project',
+      title: p.title,
+      category: p.homeType || p.category,
+      image: p.image,
+      description: p.description,
+      location: p.location,
+      budgetLabel: p.budgetLabel,
+      gallery: p.gallery,
+      beforeImages: p.beforeImages,
+      timelineWeeks: p.timelineWeeks,
+      style: p.style,
+      budgetMin: p.budgetMin,
+      budgetMax: p.budgetMax
+    });
   });
-});
 
-// 2. Add Portfolio Categories natively
-roomCollections.forEach(collection => {
-  ALL_SHOWCASE_ITEMS.push({
-    id: `portfolio-${collection.slug}`,
-    kind: 'portfolio',
-    title: collection.name,
-    category: 'Portfolio Category',
-    image: collection.images[0], // Representative image for the category card
-    description: collection.description,
-    location: 'Portfolio Reference',
-    gallery: collection.images
+  getEffectiveRooms().forEach(collection => {
+    items.push({
+      id: `portfolio-${collection.slug}`,
+      kind: 'portfolio',
+      title: collection.name,
+      category: 'Portfolio Category',
+      image: collection.images[0], 
+      description: collection.description,
+      location: 'Portfolio Reference',
+      gallery: collection.images
+    });
   });
-});
+
+  return items;
+}
+
+export const ALL_SHOWCASE_ITEMS: ShowcaseItem[] = getAllShowcaseItems();
 
 export interface Lead {
   id: string;

@@ -1,5 +1,5 @@
 import { jsPDF } from "jspdf";
-import { companyConfig } from "@/data/company";
+import { companyConfig, companyTheme } from "@/data/company";
 
 export interface EstimateData {
   customerName: string;
@@ -26,9 +26,9 @@ export function generateEstimatePdf(data: EstimateData) {
   let y = 20;
 
   // Colors
-  const charcoal = "#1A1A1A";
-  const gold = "#C5A059";
-  const gray = "#6D6B66";
+  const charcoal = companyTheme.charcoal || "#1A1A1A";
+  const gold = companyTheme.gold || "#C5A059";
+  const gray = companyTheme.muted || "#6D6B66";
 
   // Header - Studio Info
   doc.setFont("helvetica", "bold");

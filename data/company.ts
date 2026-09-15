@@ -9,16 +9,25 @@ export interface CompanyConfig {
   logoUrl?: string;
 }
 
+const activeStudio = process.env.ACTIVE_STUDIO || 'classy-craft';
+let profile: any = {};
+try {
+  profile = require(`@/data/studios/${activeStudio}.json`);
+} catch (e) {
+  console.warn(`Could not load studio profile for ${activeStudio}, using fallback.`);
+}
+
+export const companyTheme = profile.theme || {};
+
 export const companyConfig: CompanyConfig = {
-  name: "Classy Craft Interiors",
-  googleMapsUrl: "#", // To be replaced with actual Google Maps URL
-  googleReviewsUrl: "#", // To be replaced with actual Google Reviews URL
-  phone: "+91 70580 88895", // Taken from existing EstimateClient wa.me link
-  whatsapp: "917058088895",
-  website: "www.classycraftinteriors.com",
-  address: "Studio address — update before launch",
-  // In a real scenario, this would be a high-res logo path for the PDF
-  logoUrl: "/assets/logo-transparent.png" 
+  name: profile.name || "Classy Craft Interiors",
+  googleMapsUrl: profile.googleMapsUrl || "#", 
+  googleReviewsUrl: profile.googleReviewsUrl || "#", 
+  phone: profile.phone || "+91 70580 88895", 
+  whatsapp: profile.whatsapp || "917058088895",
+  website: profile.website || "www.classycraftinteriors.com",
+  address: profile.address || "Studio address — update before launch",
+  logoUrl: profile.logo || "/assets/logo-transparent.png" 
 };
 
 export interface CredibilityStat {
@@ -40,7 +49,7 @@ export interface Review {
   text: string;
 }
 
-export const googleReviews: Review[] = [
+export const googleReviews: Review[] = profile.reviews || [
   {
     id: "r1",
     author: "Aditi S.",

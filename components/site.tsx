@@ -212,13 +212,13 @@ export function Footer() {
           )}
         </div>
       </div>
-      <div className="footer-bottom">© 2026 Classy Craft Interiors. All rights reserved.</div>
+      <div className="footer-bottom">© {new Date().getFullYear()} {companyConfig.name}. All rights reserved.</div>
     </footer>
   );
 }
 
 export function WhatsApp() {
-  return <a className="whatsapp" href="https://wa.me/917058088895?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project." target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp"><MessageCircle size={22} /></a>;
+  return <a className="whatsapp" href={`https://wa.me/${companyConfig.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project.`} target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp"><MessageCircle size={22} /></a>;
 }
 
 export function MobileBottom() {

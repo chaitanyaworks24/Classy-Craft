@@ -1,5 +1,6 @@
 'use client';
 import { FormEvent, useState } from 'react';
+import { companyConfig } from '@/data/company';
 
 export default function ContactForm({ type = 'contact' }: { type?: 'contact' | 'estimate' }) {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -43,10 +44,10 @@ export default function ContactForm({ type = 'contact' }: { type?: 'contact' | '
     return (
       <div className="contact-success-state">
         <h2>Thank you.</h2>
-        <p>We’ve received your enquiry. A designer from Classy Craft Interiors will get in touch with you shortly.</p>
+        <p>We’ve received your enquiry. A designer from {companyConfig.name} will get in touch with you shortly.</p>
         <hr />
         <p className="whatsapp-fallback">
-          Prefer WhatsApp? You can also <a href="https://wa.me/917058088895?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project." target="_blank" rel="noreferrer">message us directly</a>.
+          Prefer WhatsApp? You can also <a href={`https://wa.me/${companyConfig.whatsapp}?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20interior%20project.`} target="_blank" rel="noreferrer">message us directly</a>.
         </p>
       </div>
     );

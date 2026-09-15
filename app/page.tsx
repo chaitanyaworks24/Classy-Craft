@@ -3,11 +3,23 @@ import { ArrowRight } from 'lucide-react';
 import { credibilityStats } from '@/data/company';
 import GoogleReviews from '@/components/GoogleReviews';
 import FaqAccordion from '@/components/FaqAccordion';
+import { getEffectiveHeroImages, getEffectiveRooms } from '@/lib/studio-overrides';
 
-const hero='/assets/High-quality images/3.png'; const plan='/assets/High-quality images/8.png';
-const roomCards=[['Kitchen','kitchen','/assets/rooms/Kitchen/imgi_19_138-1775458964-w17LJ.webp'],['Living Room','living-room','/assets/rooms/living room/imgi_11_lr-2-1785987661-X3R94.png'],['Bedrooms','bedrooms','/assets/rooms/bedroom/imgi_11_06-1785331585-TpqGR.jpg'],['Wardrobes','wardrobes','/assets/rooms/wardrobes/imgi_36_77-1780901142-4H9hu.jpg']];
+const heroTemplate = '/assets/High-quality images/3.png';
+const planTemplate = '/assets/High-quality images/8.png';
 
 export default function Home() {
+  const heroImages = getEffectiveHeroImages([heroTemplate, planTemplate]);
+  const hero = heroImages[0] || heroTemplate;
+  const plan = heroImages[1] || planTemplate;
+  const effectiveRooms = getEffectiveRooms();
+  
+  const roomCards = [
+    ['Kitchen', 'kitchen', effectiveRooms.find(r => r.slug === 'kitchen')?.images[0] || '/assets/rooms/Kitchen/imgi_19_138-1775458964-w17LJ.webp'],
+    ['Living Room', 'living-room', effectiveRooms.find(r => r.slug === 'living-room')?.images[0] || '/assets/rooms/living room/imgi_11_lr-2-1785987661-X3R94.png'],
+    ['Bedrooms', 'bedrooms', effectiveRooms.find(r => r.slug === 'bedroom')?.images[0] || '/assets/rooms/bedroom/imgi_11_06-1785331585-TpqGR.jpg'],
+    ['Wardrobes', 'wardrobes', effectiveRooms.find(r => r.slug === 'wardrobes')?.images[0] || '/assets/rooms/wardrobes/imgi_36_77-1780901142-4H9hu.jpg']
+  ];
   return (
     <main>
       <section className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(15,14,12,.62),rgba(15,14,12,.18) 70%),url('${hero}')`}}>
