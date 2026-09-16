@@ -1,13 +1,13 @@
 import {notFound} from 'next/navigation';
 import Link from 'next/link';
 import {ArrowRight} from 'lucide-react';
-import {serviceCollections} from '@/data/servicesDetailed';
+import { getEffectiveServiceCollections } from '@/lib/studio-overrides';
 
-export function generateStaticParams(){return serviceCollections.filter(x=>x.group==='commercial').map(x=>({slug:x.slug}))}
+export function generateStaticParams(){return getEffectiveServiceCollections().filter(x=>x.group==='commercial').map(x=>({slug:x.slug}))}
 
 export default async function ServiceDetail({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params;
-  const service=serviceCollections.find(x=>x.group==='commercial' && x.slug===slug);
+  const service=getEffectiveServiceCollections().find(x=>x.group==='commercial' && x.slug===slug);
   if(!service || !service.images) notFound();
   
   let intentTitle = '';

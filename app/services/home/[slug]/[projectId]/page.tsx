@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { serviceCollections } from '@/data/servicesDetailed';
-import { projects } from '@/data/projects';
+import { getEffectiveProject, getEffectiveProjects } from '@/lib/studio-overrides';
 
 export function generateStaticParams() {
   const params: { slug: string; projectId: string }[] = [];
@@ -20,7 +20,7 @@ export default async function ProjectDetail({params}: {params: Promise<{slug: st
   if (!service) notFound();
   
   if (!service.projectIds?.includes(projectId)) notFound();
-  const project = projects.find(p => p.slug === projectId);
+  const project = getEffectiveProject(projectId);
   if (!project) notFound();
 
   return <main className="page">

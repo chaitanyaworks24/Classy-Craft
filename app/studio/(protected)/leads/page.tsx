@@ -6,17 +6,17 @@ export default function LeadsPage() {
   return (
     <div style={{ maxWidth: '1000px' }}>
       <div style={{ marginBottom: '40px' }}>
-        <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: '#888', marginBottom: '8px' }}>Studio Leads</div>
+        <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--muted)', marginBottom: '8px' }}>Studio Leads</div>
         <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', fontWeight: 500, margin: '0' }}>
           Leads
         </h1>
       </div>
 
       <div style={{ display: 'flex', gap: '12px', marginBottom: '24px' }}>
-        <button style={{ padding: '8px 16px', fontSize: '12px', background: '#000', color: '#fff', border: 'none', borderRadius: '4px' }}>All</button>
-        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: '#666', border: '1px solid var(--line)', borderRadius: '4px' }}>New</button>
-        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: '#666', border: '1px solid var(--line)', borderRadius: '4px' }}>Contacted</button>
-        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: '#666', border: '1px solid var(--line)', borderRadius: '4px' }}>Won</button>
+        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'var(--charcoal)', color: '#fff', border: 'none', borderRadius: '4px' }}>All</button>
+        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: 'var(--muted)', border: '1px solid var(--line)', borderRadius: '4px' }}>New</button>
+        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: 'var(--muted)', border: '1px solid var(--line)', borderRadius: '4px' }}>Contacted</button>
+        <button style={{ padding: '8px 16px', fontSize: '12px', background: 'transparent', color: 'var(--muted)', border: '1px solid var(--line)', borderRadius: '4px' }}>Won</button>
       </div>
 
       <style>{`

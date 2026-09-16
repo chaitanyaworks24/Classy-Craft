@@ -88,7 +88,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: 'clamp(32px, 5vw, 48px)', fontWeight: 500, margin: '0 0 16px' }}>
               {p.title}
             </h1>
-            <div style={{ display: 'flex', gap: '24px', justifyContent: 'center', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: '#666' }}>
+            <div style={{ display: 'flex', gap: '24px', justifyContent: 'center', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)' }}>
               <span>{p.category}</span>
               {settings.showLocation && p.location && <span>{p.location}</span>}
               {settings.showBudget && p.budgetLabel && <span>{p.budgetLabel}</span>}
@@ -102,7 +102,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
 
           <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
             {settings.showProjectDetails && p.description && (
-              <p style={{ fontSize: '16px', lineHeight: 1.8, color: '#444', marginBottom: '40px' }}>
+              <p style={{ fontSize: '16px', lineHeight: 1.8, color: 'var(--charcoal)', marginBottom: '40px' }}>
                 {p.description}
               </p>
             )}
@@ -131,7 +131,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
           {p.gallery && p.gallery.length > 1 && (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px', marginTop: '40px' }}>
               {p.gallery.slice(1, 7).map((img, i) => (
-                <div key={i} style={{ height: '350px', background: '#eee' }}>
+                <div key={i} style={{ height: '350px', background: 'var(--stone)' }}>
                   <img src={img} alt={`${p.title} detail`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
                 </div>
               ))}
@@ -141,7 +141,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
 
         {(settings.showEstimateCTA || settings.showWhatsAppCTA) && (
           <section style={{ maxWidth: '800px', margin: '140px auto 0', textAlign: 'center', padding: '0 20px' }}>
-            <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: '#888', marginBottom: '16px' }}>
+            <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--muted)', marginBottom: '16px' }}>
               Seen something you love?
             </div>
             <h2 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', fontWeight: 500, margin: '0 0 40px' }}>
@@ -199,7 +199,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
             {gallery.slice(0, midIndex).map((img, i) => (
-              <div key={i} style={{ height: '400px', background: '#eee' }}>
+              <div key={i} style={{ height: '400px', background: 'var(--stone)' }}>
                 <img src={img} alt={`${r.title} design`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
               </div>
             ))}
@@ -210,7 +210,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             />
 
             {gallery.slice(midIndex).map((img, i) => (
-              <div key={i + midIndex} style={{ height: '400px', background: '#eee' }}>
+              <div key={i + midIndex} style={{ height: '400px', background: 'var(--stone)' }}>
                 <img src={img} alt={`${r.title} design`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
               </div>
             ))}
@@ -235,7 +235,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             {hasProjects && (
               <button 
                 onClick={() => setActiveTab('Projects')}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '14px', fontFamily: 'Inter, sans-serif', color: activeTab === 'Projects' ? 'var(--charcoal)' : '#888', fontWeight: activeTab === 'Projects' ? 500 : 400 }}
+                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '14px', fontFamily: 'Inter, sans-serif', color: activeTab === 'Projects' ? 'var(--charcoal)' : 'var(--muted)', fontWeight: activeTab === 'Projects' ? 500 : 400 }}
               >
                 Projects
               </button>
@@ -243,13 +243,13 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             {hasRooms && (
               <button 
                 onClick={() => setActiveTab('Rooms')}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '14px', fontFamily: 'Inter, sans-serif', color: activeTab === 'Rooms' ? 'var(--charcoal)' : '#888', fontWeight: activeTab === 'Rooms' ? 500 : 400 }}
+                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '14px', fontFamily: 'Inter, sans-serif', color: activeTab === 'Rooms' ? 'var(--charcoal)' : 'var(--muted)', fontWeight: activeTab === 'Rooms' ? 500 : 400 }}
               >
                 Rooms
               </button>
             )}
           </div>
-          <div style={{ fontSize: '12px', color: '#666', fontFamily: 'Inter, sans-serif', textAlign: 'right' }}>Showcase for {clientName}</div>
+          <div style={{ fontSize: '12px', color: 'var(--muted)', fontFamily: 'Inter, sans-serif', textAlign: 'right' }}>Showcase for {clientName}</div>
         </nav>
       )}
 
@@ -270,7 +270,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '40px', maxWidth: '100%', overflow: 'hidden' }}>
             {homeTypes.length > 1 && (
               <div style={{ display: 'flex', alignItems: 'center' }}>
-                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Type</span>
+                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Type</span>
                 <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
                   {homeTypes.map(t => (
                     <button
@@ -280,7 +280,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
                         padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                         border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                         background: activeHomeType === t ? 'var(--charcoal)' : 'transparent',
-                        color: activeHomeType === t ? '#fff' : '#666',
+                        color: activeHomeType === t ? 'var(--ivory)' : 'var(--muted)',
                         borderColor: activeHomeType === t ? 'var(--charcoal)' : 'var(--line)'
                       }}
                     >
@@ -293,7 +293,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             
             {budgets.length > 1 && (
               <div style={{ display: 'flex', alignItems: 'center' }}>
-                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
+                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
                 <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
                   {budgets.map(b => (
                     <button
@@ -303,7 +303,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
                         padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                         border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                         background: activeBudget === b ? 'var(--charcoal)' : 'transparent',
-                        color: activeBudget === b ? '#fff' : '#666',
+                        color: activeBudget === b ? 'var(--ivory)' : 'var(--muted)',
                         borderColor: activeBudget === b ? 'var(--charcoal)' : 'var(--line)'
                       }}
                     >
@@ -316,7 +316,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             
             {styles.length > 1 && (
               <div style={{ display: 'flex', alignItems: 'center' }}>
-                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
+                <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
                 <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
                   {styles.map(s => (
                     <button
@@ -326,7 +326,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
                         padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                         border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                         background: activeStyle === s ? 'var(--charcoal)' : 'transparent',
-                        color: activeStyle === s ? '#fff' : '#666',
+                        color: activeStyle === s ? 'var(--ivory)' : 'var(--muted)',
                         borderColor: activeStyle === s ? 'var(--charcoal)' : 'var(--line)'
                       }}
                     >
@@ -346,11 +346,11 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
                 className="project-card"
                 style={{ cursor: 'pointer' }}
               >
-                <div style={{ height: '400px', background: '#eee', marginBottom: '16px', overflow: 'hidden' }}>
+                <div style={{ height: '400px', background: 'var(--stone)', marginBottom: '16px', overflow: 'hidden' }}>
                   <img src={p.image} alt={p.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.4s ease' }} loading="lazy" />
                 </div>
                 <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '24px', margin: '0 0 8px', fontWeight: 500 }}>{p.title}</h3>
-                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: '#666' }}>
+                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)' }}>
                   {p.category} {settings.showLocation && p.location ? `· ${p.location}` : ''}
                 </div>
               </div>
@@ -365,11 +365,11 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
                 className="project-card"
                 style={{ cursor: 'pointer' }}
               >
-                <div style={{ height: '400px', background: '#eee', marginBottom: '16px', overflow: 'hidden' }}>
+                <div style={{ height: '400px', background: 'var(--stone)', marginBottom: '16px', overflow: 'hidden' }}>
                   <img src={p.image} alt={p.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.4s ease' }} loading="lazy" />
                 </div>
                 <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '24px', margin: '0 0 8px', fontWeight: 500 }}>{p.title}</h3>
-                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: '#666' }}>
+                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)' }}>
                   {p.category} {settings.showLocation && p.location ? `· ${p.location}` : ''}
                 </div>
               </div>
@@ -386,17 +386,17 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
               <div 
                 key={r.id} 
                 onClick={() => setActiveRoomId(r.id)}
-                style={{ cursor: 'pointer', border: '1px solid var(--line)', background: '#fff' }}
+                style={{ cursor: 'pointer', border: '1px solid var(--line)', background: 'var(--surface)' }}
               >
                 <div style={{ padding: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '24px', margin: 0, fontWeight: 500, textTransform: 'capitalize' }}>
                     {r.title}
                   </h3>
-                  <div style={{ fontSize: '11px', color: '#888', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <div style={{ fontSize: '11px', color: 'var(--muted)', display: 'flex', alignItems: 'center', gap: '4px' }}>
                     Explore <ArrowUpRight size={14} />
                   </div>
                 </div>
-                <div style={{ height: '350px', background: '#eee', overflow: 'hidden' }}>
+                <div style={{ height: '350px', background: 'var(--stone)', overflow: 'hidden' }}>
                   <img src={r.image} alt={r.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
                 </div>
               </div>
@@ -420,17 +420,17 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
             onClick={() => setActiveTab('Projects')}
             style={{ 
               background: 'none', border: 'none', cursor: 'pointer', fontSize: '12px', padding: 0, fontFamily: 'Inter, sans-serif',
-              color: activeTab === 'Projects' ? 'var(--charcoal)' : '#888', fontWeight: activeTab === 'Projects' ? 600 : 400 
+              color: activeTab === 'Projects' ? 'var(--charcoal)' : 'var(--muted)', fontWeight: activeTab === 'Projects' ? 600 : 400 
             }}
           >
             Projects
           </button>
-          <div style={{ color: '#ddd', fontSize: '12px' }}>|</div>
+          <div style={{ color: 'var(--line)', fontSize: '12px' }}>|</div>
           <button 
             onClick={() => setActiveTab('Rooms')}
             style={{ 
               background: 'none', border: 'none', cursor: 'pointer', fontSize: '12px', padding: 0, fontFamily: 'Inter, sans-serif',
-              color: activeTab === 'Rooms' ? 'var(--charcoal)' : '#888', fontWeight: activeTab === 'Rooms' ? 600 : 400 
+              color: activeTab === 'Rooms' ? 'var(--charcoal)' : 'var(--muted)', fontWeight: activeTab === 'Rooms' ? 600 : 400 
             }}
           >
             Rooms
@@ -441,7 +441,7 @@ export default function ShowcaseClient({ clientName, items, settings }: Showcase
       {/* Grid Conversion Section */}
       {(settings.showEstimateCTA || settings.showWhatsAppCTA) && (
         <section style={{ maxWidth: '800px', margin: '100px auto 0', textAlign: 'center', padding: '0 20px' }}>
-          <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: '#888', marginBottom: '16px', fontWeight: 600 }}>
+          <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--muted)', marginBottom: '16px', fontWeight: 600 }}>
             Seen something you love?
           </div>
           <h2 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', fontWeight: 500, margin: '0 0 40px' }}>

@@ -1,22 +1,22 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { serviceCollections } from '@/data/servicesDetailed';
-import { projects } from '@/data/projects';
+import { getEffectiveServiceCollections, getEffectiveProjects } from '@/lib/studio-overrides';
 import ServiceProjectGrid from '@/components/ServiceProjectGrid';
 
 export function generateStaticParams() {
-  return serviceCollections.filter(x => x.group === 'home').map(x => ({ slug: x.slug }))
+  return getEffectiveServiceCollections().filter(x => x.group === 'home').map(x => ({ slug: x.slug }))
 }
 
 export default async function ServiceDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const service = serviceCollections.find(x => x.group === 'home' && x.slug === slug);
+  const service = getEffectiveServiceCollections().find(x => x.group === 'home' && x.slug === slug);
   if (!service) notFound();
 
   // Map project IDs to project objects
+  const effProjects = getEffectiveProjects();
   const serviceProjects = (service.projectIds || [])
-    .map(id => projects.find(p => p.slug === id))
+    .map(id => effProjects.find(p => p.slug === id))
     .filter((p): p is NonNullable<typeof p> => p !== undefined);
 
   return (

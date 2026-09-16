@@ -24,14 +24,15 @@ function ThemeInjector() {
   if (!theme || Object.keys(theme).length === 0) return null;
 
   const vars = [
-    theme.ivory && `--ivory: ${theme.ivory};`,
-    theme.surface && `--surface: ${theme.surface};`,
-    theme.stone && `--stone: ${theme.stone};`,
-    theme.charcoal && `--charcoal: ${theme.charcoal};`,
-    theme.ink && `--ink: ${theme.ink};`,
-    theme.muted && `--muted: ${theme.muted};`,
-    theme.gold && `--gold: ${theme.gold};`,
-    theme.line && `--line: ${theme.line};`,
+    theme.background && `--ivory: ${theme.background} !important;`,
+    theme.surface && `--surface: ${theme.surface} !important;`,
+    theme.border && `--stone: ${theme.border} !important;`,
+    theme.text && `--charcoal: ${theme.text} !important;`,
+    theme.text && `--ink: ${theme.text} !important;`,
+    theme.muted && `--muted: ${theme.muted} !important;`,
+    theme.accent && `--gold: ${theme.accent} !important;`,
+    theme.border && `--line: ${theme.border} !important;`,
+    theme.cta && `--cta: ${theme.cta} !important;`,
   ].filter(Boolean).join('');
 
   if (!vars) return null;

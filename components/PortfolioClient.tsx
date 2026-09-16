@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
-import { projects } from '@/data/projects';
+import { getEffectiveProjects } from '@/lib/studio-overrides';
 
 
 
@@ -18,6 +18,8 @@ export default function PortfolioClient() {
   const [homeType, setHomeType] = useState('All');
   const [budget, setBudget] = useState('All Budgets');
   const [style, setStyle] = useState('All');
+  
+  const projects = useMemo(() => getEffectiveProjects(), []);
 
   // Filter list
   const list = useMemo(() => {
@@ -47,7 +49,7 @@ export default function PortfolioClient() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '100%', overflow: 'hidden' }}>
           
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Type</span>
+            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Type</span>
             <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
               {homeTypes.map(t => (
                 <button
@@ -57,7 +59,7 @@ export default function PortfolioClient() {
                     padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                     border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                     background: homeType === t ? 'var(--charcoal)' : 'transparent',
-                    color: homeType === t ? '#fff' : '#666',
+                    color: homeType === t ? 'var(--ivory)' : 'var(--muted)',
                     borderColor: homeType === t ? 'var(--charcoal)' : 'var(--line)'
                   }}
                 >
@@ -68,7 +70,7 @@ export default function PortfolioClient() {
           </div>
           
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
+            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
             <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
               {budgets.map(b => (
                 <button
@@ -78,7 +80,7 @@ export default function PortfolioClient() {
                     padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                     border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                     background: budget === b ? 'var(--charcoal)' : 'transparent',
-                    color: budget === b ? '#fff' : '#666',
+                    color: budget === b ? 'var(--ivory)' : 'var(--muted)',
                     borderColor: budget === b ? 'var(--charcoal)' : 'var(--line)'
                   }}
                 >
@@ -89,7 +91,7 @@ export default function PortfolioClient() {
           </div>
           
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
+            <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
             <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
               {styles.map(s => (
                 <button
@@ -99,7 +101,7 @@ export default function PortfolioClient() {
                     padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                     border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                     background: style === s ? 'var(--charcoal)' : 'transparent',
-                    color: style === s ? '#fff' : '#666',
+                    color: style === s ? 'var(--ivory)' : 'var(--muted)',
                     borderColor: style === s ? 'var(--charcoal)' : 'var(--line)'
                   }}
                 >
@@ -124,7 +126,7 @@ export default function PortfolioClient() {
           </Link>
         ))}
         {list.length === 0 && (
-          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '60px 0', color: '#777' }}>
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '60px 0', color: 'var(--muted)' }}>
             No projects match your selected criteria.
           </div>
         )}

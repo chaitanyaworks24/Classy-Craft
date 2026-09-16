@@ -20,14 +20,14 @@ try {
 export const companyTheme = profile.theme || {};
 
 export const companyConfig: CompanyConfig = {
-  name: profile.name || "Classy Craft Interiors",
-  googleMapsUrl: profile.googleMapsUrl || "#", 
-  googleReviewsUrl: profile.googleReviewsUrl || "#", 
-  phone: profile.phone || "+91 70580 88895", 
-  whatsapp: profile.whatsapp || "917058088895",
-  website: profile.website || "www.classycraftinteriors.com",
-  address: profile.address || "Studio address — update before launch",
-  logoUrl: profile.logo || "/assets/logo-transparent.png" 
+  name: profile.name ?? "Classy Craft Interiors",
+  googleMapsUrl: profile.googleMapsUrl ?? "#", 
+  googleReviewsUrl: profile.googleReviewsUrl ?? "#", 
+  phone: profile.phone ?? "+91 70580 88895", 
+  whatsapp: profile.whatsapp ?? "917058088895",
+  website: profile.website ?? "www.classycraftinteriors.com",
+  address: profile.address ?? "Studio address — update before launch",
+  logoUrl: profile.logo ?? "/assets/logo-transparent.png" 
 };
 
 export interface CredibilityStat {
@@ -49,7 +49,12 @@ export interface Review {
   text: string;
 }
 
-export const googleReviews: Review[] = profile.reviews || [
+export const googleReviews: Review[] = profile.reviews ? profile.reviews.map((r: any, i: number) => ({
+  id: r.id || `r${i}`,
+  author: r.reviewer || r.author || "Google User",
+  rating: r.rating || 5,
+  text: r.review || r.text || ""
+})) : [
   {
     id: "r1",
     author: "Aditi S.",
