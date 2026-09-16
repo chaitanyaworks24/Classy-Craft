@@ -1,35 +1,222 @@
 {
   "rooms": {
-    "kitchen": [],
-    "bedroom": [],
-    "living-room": [],
-    "pooja-room": [],
-    "tv-unit": [],
-    "wardrobes": [],
-    "foyer": [],
+    "kitchen": [
+      "/assets/studios/classy-craft/kitchen/imgi_105_AHRPTWnBrxKe9rffBFYeGAidE-POckQExFkFEELQNiyOrTRhSPyiFIjYKvAOgBCJ56E_TCQ1cmBUzFlRFadWNvACimAKbXvMDJm8R3UqjVoSsWFD86s8_l6Kotj9jeW-Ndlol0ZJrah9=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_109_AHRPTWm7Wb5S0gNDXin21L-L88eZRkEEvq-JmWhlnf9vTA03OejX_9ch-rz8HGKjiZpZd9wkY2eL6cZeyHeKiWx5xlL506ROOoATL8u1YlFEJSronoaN3V0nl9SCLWcmtDGVZt6ijLgYuA=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_119_AHRPTWnm80qkvUOb3DigJirPUUNvr0wDzApiWPeL0Yj75PcZ23P74sT64HwalZW1IiClJ8bVLacu8FVJsG06MR6W7lJ77mE8oSc1uuLY6zzLXGd0pblK6wyKEy4EutSL_TL80YnWt2-0TE8PLEuE=s1127-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_143_AHRPTWmI3N_Xi0BMV_tpHCLZKD5PYdjwWed19iexR1VeUXNud3fhY2ShbfgLWDjFVq-SkXtdYF_-XkRKw_f1ZwpMaNeJv9PSJfGEQZARIl8UYMyKUICvE8x57hEZWKsENi6JeWnWjQguoQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_147_AHRPTWmTky3RgWiVqCYEC3RtzlvqDmJ34_ciXVxIN43pIDCCro1WOSWdTV-idpLFY0mJr6GxrfZgZIS450RUvbebjRcIxb7iT5BNrUZ_L5FSE6kFvkz_PEYVuyWrJ7BXomLhgW2x4AlY8w=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_183_AHRPTWnHkkgFIazLepI2HQxyNkaOgroqnJibnYjGwoHjjp0-fWhfq8ivpHKA8knr-tbsuo1bWB-7MeT4hdab050ug5SbqVnJEaiUvPBDA3oPuFz0GpyuRcfIAdCCu4XF2CR4jTqQefC1HQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_187_AHRPTWmyggyg2IR9CuwUfS37OIlqCvb4q2_PiH-G35zsjhhkaK0wsMe3AQ7_bKNEorWP5SoOzCC6KnBBGmpnwl-k_e6QTpw1UrHfXXFlrQ-c4gD8wrWZl8ECaFrclRHQfvsALVlVGkS2=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_197_AHRPTWk18ribrx2iZsXrSbj7v7yKdLCoCMuxXA4Md2fGYluXVEXXonHMWgad1u1cgNfrXNLRx7xIq-OdUvdHfeiO9aj3ZUtFDH0L1uZobLgWb4fFSwM_sR1KU_Cw-CMwmIi68A=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_21_AHRPTWl4ciCmwYgsgol9vS0lGpiuIkt0np9r4VnRjITnJSw9Ze7FKSacFNcYoOTndq_7kntwpfWVM7SLCAI-NbF9gTNNO6vXExhK_VKPlJQpSvs-DKx_VCwGzjT90Qtt2v8FXAdc6YPb=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_223_AHRPTWl-iePGeWtdZZnJVKkRvdR222PNVtnFX1wk3cUh9VUGxm6t5DwqEx8wKKBmrVzdnb2UxIn4L9CpY5S0yuD2Ws348_dPJ4SxsvU6F-HXRQh_IC9IIutLOaYo4HT_kY_93ZQqj9NX=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_277_AHRPTWm1tMuTnroFsOZEDr5fAQusX7f2uOGHW7-nFcIvCHvhabqg6ZDp9TeETV6D7E2fhBqqhfHLE-4zy1olkyr0fiYux_vhTq6bqFbyDsOnNf_6afPPp_u4f_YxYKg8T0dkGKg3-ts=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_315_AHRPTWmMLckc2tgQA3M8lwWjwUqRDhXG837Q1zVEIJNKgEscNoh5o6bSeqRH4wSE4hcbjKKu0NGYxdfDmgk0a1fpQIccye9GExIXIOE7KfPBr3Zeu1j4JKCxSskrGWOzzAN9d9yqhzgr=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_31_AHRPTWkjL-NbC7uQVusWXYH31oNYE7ddolP3T9NpndObM0U03SM8i77xGaWDIcVXg2nITNrrjtG5xAtxjhTmgU5_DVdJ5Hgmec756VDsdNtNIck7HVwRKKVme1FdLyHo0nNv4bRnc-zy=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_323_AHRPTWkhzbBKaq_oOgj1WlITlCONoTRv0TP4xNBSz3rccN1RJhEbbk8TKtMI5yzE8LK4AxPtQtv4jucAZVl2ZBpPA41WOCbgqMUSklJl4QCIqq8u-Y0ybEB6r_Ahb0blfUfdvUSk9uxHwftP9TE=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_345_AHRPTWl09KugBSf4nL-GllLfu4T37NP3AYCK8ZH-LkNgjinVkUG-UBKFKU3zET7AjYHoGNeNJNpgx01IiedsWPv1_hlEb3sdPSKSFUgm_EsOYVFkJxn5ViymhJfpe3H-cjMss6l4YPgotA=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_387_AHRPTWn-CW2PtJB1JDZUt05bDHveKj3JuWS9eTnl0PWOF-dNEptfoKmr7q0bQt-HCJzomCHdhxran4Zx15RgCv42jwhPUQSlHnx-wPAgGLrt7U4filhYgXGql056o7ut7d3bfWvwnKxL=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_423_AHRPTWm0yVjLTuR6tbOwXA9HLlxqe_8QSuXWG5br3cCsFmcIRP81SD5dw-SjUdPq5A0K5MPXA2q777UwDD6INojF6a43O0-IJaQkPNPWTCmz-UqouHmLC_9KgVsRHyLku1nfkwKb2aR--g=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_43_AHRPTWmgSYrlRpzktSxOZDGwxA1kVk8eTGu9B0W_FetLSpj7_twiqgBBqHVKYfhvAm0AdPZ2WmWSPCJNODbeHtBgWRG14rkri-esAIdb4zeRsdyxgiOJdKAwJAaQcQUHc8xAPdIaOIyc_WP_mDYd=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_539_AHRPTWkEOw2EkuHYjacNWgJSdnsa3T0hJJ5tEUicL4srhA4puXi9H_sLLec75zCj2Dylt3zUU4iOAauFSpKBX3AUdMigG9KY4eeUSeQAngji552VLIphUxf-miJvRJiEP99K6k7j9x1EDaVmJ_Yn=s1015-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_65_AHRPTWnuacJWTEIxubWo9mBsxNScmvp-JTJ0aCl9DAjuChqBW5RPQLZl5-6jSZtFbdn7LlXw9nLGMJXcjUl0tSBzqliqYg5hPG6ro6rN5mfBg1N_HLRfav6ygqLGnBxUcZMY71Cdygpqow=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kitchen/imgi_69_AHRPTWnxDDCFMelwig2zBjQYon-EiaDrL3Kaz24SAYE-q31iPQ4ZsALl59m-_Sw-lst5MIFERIIXn5t5x8RUidFHoyD2T9Y1ECcwRVw_QCzJtb8i-330MDfJQMXBiacnEZ6iEY_b1UCAPg=s1280-k-no.jpg"
+    ],
+    "bedroom": [
+      "/assets/studios/classy-craft/bedroom/imgi_107_AHRPTWmYpWH39vQEoDh9YYxDhmOfgL5VHYHPQWVhtds2MD1GD9UZPRysPBCol4wut40Cu1ofMmSWrBHnMQ-D_Z0WbbiPhe1PXbdKynB3YGj_Gz-CXO_ij4rLnaVenkos78cItOIYv8qy=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_111_AHRPTWnJqClAOww3Mr3fYX-7UqjFMJ5eaRUcUsmAhUT7H4k5Wr6GDUZjPaBpd5snwGPVDJwhwfxMVBpttXOM21O-I5VDM-5C1VzQgI3O1kKxjnDWUU-oQywkyNKS4h5eC9XHGACxgiQr=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_117_AHRPTWkv_ejzizW5HVZW0gWwLj011iuP_wfIyapWCJ5qnKMmIpsJ3RAhY2zsShHoFyE86wDiETgBpw5Rfr8qWU9-8y5MHJz7aj4maPuxmW2Ij66J5hnXN_CTxTffUFBnwgbcneI0pKZT=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_127_AHRPTWkYHJYEcehKsm6niKYDgCKppvZI89gDThRXCJqHGVbv6gyHr5OGF_vrUGTAlteUHpjQg4zKbuCFIh4IM9xNb0QcEVZLUx8SEFtqdycEA9eOCtHAgehZcmnQC0HXT4jY6_pSS2oh=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_179_AHRPTWnKVsmVCm0fzKD-nhHAL1-BO0xnf3v4MTwR6KFC9VY_qXNOjdj7GAyYBGn_hEfbyyEZDn9SpiCisb4Y8jOYScADjpkpdnxseyDmnknkiZdJ-My4vywCq3Mni2RYkvgtKYfThQul=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_185_AHRPTWmK7pEAFdvsLMVCIxiR_M78mZv7dg_K2xcuqmIaxXhWkuqSBn9GEH4eZYcAIcjjWmU8d1nkoCi28vTk_RnJrYYVvhKNr_TA1NAttBmLFzdN9VC6oVOpMaCVq8QAANqznZ3s5XqQPg=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_199_AHRPTWkYeZSwaOFY7JA7hGuOmpmy6rmB9e7G_ZhlOF_ZZT3MniSb_UP_GK7Gmzleh2taKvSuV6ywMUpichFLWRsbXNWitYI5yxyCjLMIQgRbH3s3M0Lr-w_6DNIx4EBPTLWOAIkaq14=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_225_AHRPTWko7G_7gtb0V2xfEqKIKRGkkuW1qO33cIQVTDnXnLwvLmBTCOpXDlTjVaB1d0Ilyn9Ik8yqjGOM-yce33sW9FfYswrUpynJxlxLshE7GWwu-gzjqUZ141xYLMKrtQ11-Vx2wbwb=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_243_AHRPTWmp8E2HBARGSFtrYhrHAK1T8t7gkN-97_xqYordLXr1GMTVyt3X91N9-naiyaH5Bi1t3klqow8-8ThhqwEsQ3W48-MmQVgEOgxJ9wtJzA62KllhzX-FRqe6_grS2C42-aeNTUc=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_265_AHRPTWkndqOrx3Czv9VOQ0awwgXXHITPtVLk2Is6Vi3vd9V6VmGkxt-7tzFN4_3b7QCgdByhfAcC0WRxZRDZr5-MKlmseTpgImjtC11NQpJWXLH7uIwX4PmD8rJKr7hGBpatJI1t_-Sn=s1000-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_29_AHRPTWkRwC7jQIdA3_7zSFLl3IIEpnRqOsixHpZylBb3HDx-qKzkqKVOIoRsq9AFDNmO9wwCIZuo7T8Yvkxdttz0r1a-RNrlWPmxG4ej49nJMsgJ0I9YCaCiFcHP2zDkmV5Td0jhAoAR0Q=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_33_AHRPTWmbUXEzyY2261Y04KrXLpFEmTrWFSZwkIU_30nhcB3Xue5aMZrVOqUAgcPnBiNz5ax2ab5cuLTXOo0ZSjN328lDVGL_Oh0q8h_thTe7ea0M0nWUvNXpnQtGJvbzkm7BgrEwOZEZ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_401_AHRPTWk8fWTbimti5Vqh9giemarQ1OzCW9IjEdEpJ-GMbmWy3sMSMQnucGS1az3E_X2l6_K4eDZf_cJ_ALp8zkdQSCStc3MnRIafEnj-WPYxAyh1vaWWh4cDjqT5MiuRnamiRFraYvxEfA=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_41_AHRPTWlTGwlyP9Ov28vkFPoevfWSS0MSjVVJp2jQ6SK9uWuoqD3pshBVdPFE6niCWxEktuetDiG6JJ8a29nwM1ciZXpkfFLRlNT9Udi2l89iTffDfx8VDZH6RDjXbG9VtVOrARIXShm4=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_49_AHRPTWmkBaWboR3EGVJLsPQL7pCcP-JJYjx_8Kj16MlTY-0kcwY2DzV5VqOvWENVFYTX-9Io3Fojgao8UBB7Umuyi1jltkFSj_QuQ37OQoOlBNL-j-k-I44lcx01KltD7D4DeaRhoV7otg=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_587_AHRPTWnbNga7HSrZg2IoiBe1VlIpmP1TuwYfF2NOlKntpq6-yzT_JB5kLf6h-bF97CUUbPoDPFJMqkEjg-ooKu4xP26nRP5YlW0Z0MQ8etIlU2svMxxHdp9W2xI_ox285_7Oy4qxiqOW=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_67_AHRPTWnIwV8w_viU_jQOvx2t5yBQjFlkoq4sp9AeATlGuA8YRciXYlvDTCiYnqwUNF95jFne24LJedlOMdGKbNUbl3oIPDb9gltAXRAisCnIxJRlgWeb56i1I3WoiHXgnFm7EeN0AnWP5A=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/bedroom/imgi_85_AHRPTWk_SdTIFT3tWEWgk9qA4UJilk-oJ7gYeZXc7daxk4klaXFBU8MfFx2dUEtaGuTrWM6shUDZkmdeuD0HDfMXWK9oxeC3j4Fc86m2TlxRNghHWN6LykmZhFEiY3exSX3BsQp4akLo=s1088-k-no.jpg"
+    ],
+    "living-room": [
+      "/assets/studios/classy-craft/living-room/imgi_103_AHRPTWl_J1qmqUQl4llR4rXCMjiKe1kOE3QssQ5Fwi6FnhZ_UmEok3h4CNso_bW8sf3Snj0NdH5eHlw_1O6DOWGVCWctFYG3MSqAGY1Kwn5h9czkdXZlBI87RW-8g20jU-qi5jyMQNFW_Q=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_25_AHRPTWnYbKzMXMjZwzRbXiRq0IOlYfDJNqSncyX22YLWv0cLxv2WgNgkGpKcO32Zq0HjXgqCzDZdZCQU0zt3r5I1HrmYUdc0dK6tAfIgTBgxzIPutsrm7Dpbf-oovcQOvyI-HTYTPnfD=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_301_AHRPTWmf_Dx0h65jrfIezraxOk48jSaq9tntVcXExDrRlsCUBRv209w6Rgl_pRrU-gbC8GVshLP4WW-08gRvA_CMcHkNy_PR4nW7YK8TJtmUDvQ-XFrmaklBgaifF6QRAOLgU4v3OsNp=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_395_AHRPTWkSW58P4GcoOMPY5bwsyCQ5r9uJFMPrv5yoi58ZgUgrkJTgAExEvYfjASV6jb5M3GXZDBRCWEQJ_ZfHy8nr-3Btkh5aQ721GpLZmpaz9c5vm8BvfDks99i6GambDm-ej7oeDShiyg=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_441_AHRPTWn7DM9deyJWcpc1QY2lUFvTN3HHUSD9PFSPCsc7OFRk8Ehle0JnK6sSXyxbJ7VBKHje6wWXKkIdZsevcUK9QWvSBc6Ifuoyxy7BInpeqJlGrAhnxod8DPIvDAbc68CiPICHyMU=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_447_AHRPTWlx1KU78orZtSpEdP_9vtJewEW4E8NOYFZnk72iazAc7_cqEZct8XleZ-d4K6KuB1L0LboQMsMu0lWo4OQYKNAeY2H9JR6vrxmd4WxQ0qA1s2Yn8T7hKBLqrelVl6h0hqZ20nw=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_45_AHRPTWmFaQUV7uIKW3LtLum11ZquZrBRuXmXAiWU1zcHSIbC_wpbAeTqFoZaaRBLNKSxOvP2VLa6sj1LYHryBaRZsusubz9-MI7Az0CX-0ih-fqukXr7Ev6JHwQzI3cZ8RLyuFu50rQDCQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_461_AHRPTWkjzrBGKIQgUvAIuFoADV6bL89trQ0w4t4ARuWWRDPCLSYshbjNVvKCUi1HLgW80CWW59ysXJYMLW0zRn4rQSotuAnVNmJ6IcJggzdQI1t5TZAO6PZnfFNgXdEwwOl-PDCGziaB=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_501_AHRPTWk6oSwRWDu6LwpXvux8N9Gswf2Y0ho8h0e4SVolCfr4sAtN1gRMty24kieyTs9kP2F4RLdXxsEDUYZeyDyBuGIjNYDnLtiRn4XIsOXDGW8CWhp_LJjCVJl8_DvYw0NgLeGY2FFWoA=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_531_AHRPTWnASSNedzOM4Ssgia3F5Qw5KwqracdkW6yltbTeKmrTObEzCYY3yjFuxpNzY8JGWGkyIrruaua0FbhgV_TRdLe-pJl75mqr95uubhItLqk-ok48Z66cyeR_BUVLig3d-i80a4D4=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_541_AHRPTWmXZcFp5UB8-50B8ofgGQxCvzvXK2n1uDL8WwERT4QWpZt3rZSQtqHWF0EGY_0SXwdMJ3ss9Q-Y6OHb35YJVyuOSpfFFV00oBK7hFrAd7gRqDHRnRj3KyxA4X21qU8ZwrGq0KmiWw=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_565_AHRPTWmZK87EoF-AWhivtEN61uyV97eDduINH8077zHYXpBDjfaeTvMnIi8JDe4Au96_EBYbjBJvo12V_arzORfiaMc7aon56ouykepTwJau4GSkrCYAFOO1vLQYN4KYVIgTO7r07EBs=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_575_AHRPTWlDvMo2k4nB0u76T8PbhEilVqsYjcZ9K_XpV63498cBQVcNf-X5qpzG7SIH8-tp8DLxILDk72z0HdMrsO4jnlcsVuKqOajJOa648YZnGx8DMXstC_nHI7fU8hH7amBg9ScmGEVJdA=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_591_AHRPTWkPe0xMLCKQfppgaxa-QCxIbe-KGxys6k2PjQl1aNoXyNGdxWxAdw-jdZadFLRzYOizxOQXGwDyg3O6BtzNrZtv9sHM_nO8p6u54kHLY0tD1p0-a7Zbxfa3NB09ow-FObiI2ME=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/living-room/imgi_63_AHRPTWnsksm7Lsy6r_8j7kX7KjvAbOM7YoaLyoUnXkhT1vWUMplRg2EQ1en1XgqOn1jtvr7sYTx-RpYkM04OQDyPEXBTxpHKExUBy6SIJMLONF1J_uUys4DIUS-ahHlAt1AsKzimKoRFvA=s1088-k-no.jpg"
+    ],
+    "pooja-room": [
+      "/assets/studios/classy-craft/pooja-room/imgi_133_AHRPTWk_81h2FujEXTt0zPDyKqRWG2YDQYrs74v3wPUx4cdgqd1QPO_64ZNA5F-QFnQNQ7pNnWRuoipP5j-7x0cbY5ARblQuqKYNjsoSeonpqxwewxMCI0zs3K3sRy7nBhAsfRkCzJp1=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/pooja-room/imgi_177_AHRPTWnm-UHXk0hd4rAA3pmGLfgacEWc7JO4QyQ-x-47uaFy6FF2X_voQXdRlPahFa_CJqPZ1WbvUWt_rbA_ldWVCrJrO1iapMu5zMJ2LCkKGwboWiBTpI2cIGj86mw8V-RevzhR42tVaA=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/pooja-room/imgi_257_AHRPTWnxw4uFZ01OtYnp43oslSFX0Af76eSiDfk_u3WjzKyxTUwBoCkIE6SU0UDOKqVLPSOB5l5nr7KzWBTzJ0d-8OTqWz3ehnSbbH6Zts9A2tvZRUwx2rtKmYc9VC_yBXmrKkXlIwDEAQ=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/pooja-room/imgi_429_AHRPTWkCnpYWNKYJENi344X-yK9aAuRJ5Gqcp3KZvxQD9K43pLNb4zzWCloACFLOQwdg7aZTqDegnUXTnB-hGHXLAdUyIzYesWcEuPcsS5QPnipKf_1NlqWIzNWeEEnqiHbAxm3Sg6Fu8w=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/pooja-room/imgi_443_AHRPTWnHlBmGCW23M5cZkB2RHPC-8X8PTzj9wTlzi_XHsmOsRvBS-IClP0CMo_vpI6MdTNsK9L-I79V--tPIRV4LkRmXZP62XAblxCRXx9PZvLI6cnOPIzVw2CbAG7jUz1he0R8h61Q1XEpZNlgM=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/pooja-room/imgi_519_AHRPTWkpQocdsEbGd7BjTEK-kMZofnldSHJioS2ibMSpY2gKNg7kuHHSkHll_thydrlg8i6FcPThAYgPOYkHVhiVoVT9yCzCg0v2mGQp_BWXie8pq4ce-NB7rYGZ_Rsx7JYu-8sDiFaMAQ=s1280-k-no.jpg"
+    ],
+    "tv-unit": [
+      "/assets/studios/classy-craft/tv-unit/imgi_103_AHRPTWl_J1qmqUQl4llR4rXCMjiKe1kOE3QssQ5Fwi6FnhZ_UmEok3h4CNso_bW8sf3Snj0NdH5eHlw_1O6DOWGVCWctFYG3MSqAGY1Kwn5h9czkdXZlBI87RW-8g20jU-qi5jyMQNFW_Q=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/tv-unit/imgi_301_AHRPTWmf_Dx0h65jrfIezraxOk48jSaq9tntVcXExDrRlsCUBRv209w6Rgl_pRrU-gbC8GVshLP4WW-08gRvA_CMcHkNy_PR4nW7YK8TJtmUDvQ-XFrmaklBgaifF6QRAOLgU4v3OsNp=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/tv-unit/imgi_533_AHRPTWmSBVygNziZhZ_l7W7iKEJMca9bEp9GtIB4uG34gNHYgDROmg-NuFY6HIvbSlUfQN_TCtR5EXAzvh9XV4aS7KCK7A6hPvFPZMBvEtMIQJX_gKLIt3Ca5k6G8wh6RUidKH4Oqx56=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/tv-unit/imgi_551_AHRPTWnEYuta91fsEOiYUQ2sgF1z5febvwpPRo_dx16ijipDxyb9hdOzXGSzLMpn4YTbV2CPnlIE4J1yUDoCOO_IH9Fm3RgRPr6ndLXjnbhqBqAkmYviBly79_zzBfuUhmCzgZj7iVly=s1127-k-no.jpg"
+    ],
+    "wardrobes": [
+      "/assets/studios/classy-craft/wardrobes/imgi_127_AHRPTWkYHJYEcehKsm6niKYDgCKppvZI89gDThRXCJqHGVbv6gyHr5OGF_vrUGTAlteUHpjQg4zKbuCFIh4IM9xNb0QcEVZLUx8SEFtqdycEA9eOCtHAgehZcmnQC0HXT4jY6_pSS2oh=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_299_AHRPTWk55WNtwTF2lp6iYfzuAO4h5OC7y-pUP01OACa_h0yRbpWlYBMVwUCRGv9fFzb1xu0qDbd8r8tDPwFtGpf2IKGVaXGeg4IOPvtlYyYqtGgHyKecZega1EG65crs10yGhCbvwcs=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_29_AHRPTWkRwC7jQIdA3_7zSFLl3IIEpnRqOsixHpZylBb3HDx-qKzkqKVOIoRsq9AFDNmO9wwCIZuo7T8Yvkxdttz0r1a-RNrlWPmxG4ej49nJMsgJ0I9YCaCiFcHP2zDkmV5Td0jhAoAR0Q=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_495_AHRPTWnP6mXJTZFQC1puHflEZOsaMtqc9f3d92nM8M0sdGDnBHtV2no7A22C6F8iK1DYziUMHXp5ORLUIVpfYzly-P1VJE79DDzFq8pAYzNiH1sHRUAIKX7NDgirSoVxVbMPmg89__jI5d0yh3nw=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_499_AHRPTWlXHgUeGYyLFL-Bql8JNmy3NniGIOn4R_1-g_36H4zjMlriyeqt7sms2A7p336gCYVFt3GJJEaUJMY3eaPOqyPZ1b210uZWgqIhbit9bz86FtKRCUxNL2e1hK0kJEgsoZioM4PkPc5va9_V=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_577_AHRPTWkUeRFvtGvsSONytDU7lySBo3hHKVnMTu8NoOGvS4xIeG3ZCXkqGDDklzKVWjkFYolR2p9kgTefcLMuFjE0lnJLGT-eGZjdFU-cY8-c1FS5-d2NC6P_Lu0ogmAARuuW0EDWYVey=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_81_AHRPTWm3SHPPpZ6ChSxSzuNAPRVyDTjc4BCnpy4RgRIlsb6rnYINdd86RbehRhebwFHoYKiV5g_bn-Rfgnkcb01kzoF585f9ldxI1CJo27cgUsJNFoSqI_8KVYMWs5Bl2C5qNM376gdf-g=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/wardrobes/imgi_83_AHRPTWmvXkFb9ycrxRZv9j6rcNvU-F6JJ5mKCGd7o5g60nPbEXri_tyECCDhN4Qwz-760rdWvLjIK_LwDCU-Cu0lUrF84Oa9TTWeB7BQlpHbw18xYikSGehbE9O2WEwJyW9uwA9gizVJmg=s1280-k-no.jpg"
+    ],
+    "foyer": [
+      "/assets/studios/classy-craft/foyer/imgi_131_AHRPTWksei8SIqQXJ8pOQF9FaMk_HnTbSOCEi6fQYOoDlsWesdlp1Sd3pUmedL_Ms2J8qmMpT1CqCp-PLqs-lcpeMkkA9EXVyavQ4FjDoooTqs71kwyRrSjvCzF9CSM4nszDM1mm_s42=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_133_AHRPTWk_81h2FujEXTt0zPDyKqRWG2YDQYrs74v3wPUx4cdgqd1QPO_64ZNA5F-QFnQNQ7pNnWRuoipP5j-7x0cbY5ARblQuqKYNjsoSeonpqxwewxMCI0zs3K3sRy7nBhAsfRkCzJp1=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_329_AHRPTWkOo4iCS5k2Te5C2_MaLoT0Jpye4FFa7nzxwO1Jz5SrJ2ENX3sTeXo2duH9NHZqYVs69eO1FgeN7Bd7qPYyf4Kxv_4NKx6MFOWFtc0tBFgf3O1WcOGOzkcY1F_htMyhUs5DafZd2A=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_397_AHRPTWkvQuY3ZYqiy5WLdTkn3LMMb1C4uvf7AzKFRuFyAEOMNTWf1yJs_rgDEPCX3EQvqgcvaBwLkFT89u_ZbeJJPp5SYnUwZydp58ftQFsOjFi4Uf2qCGE4b_Kts8ryljePaxpTODHFYCXub-OU=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_441_AHRPTWn7DM9deyJWcpc1QY2lUFvTN3HHUSD9PFSPCsc7OFRk8Ehle0JnK6sSXyxbJ7VBKHje6wWXKkIdZsevcUK9QWvSBc6Ifuoyxy7BInpeqJlGrAhnxod8DPIvDAbc68CiPICHyMU=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_493_AHRPTWlmKEOGdjanSBrjuRsezzCE5ipVB6feaY8rhk2KL_lv15zmf8c58g6Y6k-adxMFFjUUl4TsEGfs9EKmMX4r9t8rS2LV4_K-AnwkCmxI0B-F2L8i9DOfPq67F_Lci8Ii2en0O6H7=s1000-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_557_AHRPTWkrDUnrQx-ad2knhsEg5LzGMKSo7oI8DF4eeeApcCb0sJAWE-BFTRAlg8lGrvtW_fW7dyqKb0XHwtU4YXy1gpOFiGxfupAnEt19Qy97QC_Ao_UNn9qLPKWT47PrAfxgyAVpktQ=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/foyer/imgi_57_AHRPTWlGhKfteYUw0yFeW2asK3iAD7AD1L5ENIVmFfcLJo9W6jhdEk5d8z4pStUALLBHsjZmmHLgzC1yGpBEC_lT_IHSzTv1ITSzGL42O_SOK5dxqMNbm4DTFv_yZn91IVfwbQ2YcE5mrQ=s1280-k-no.jpg"
+    ],
     "crockery-unit": [],
-    "kids-room": []
+    "kids-room": [
+      "/assets/studios/classy-craft/kids-room/imgi_117_AHRPTWkv_ejzizW5HVZW0gWwLj011iuP_wfIyapWCJ5qnKMmIpsJ3RAhY2zsShHoFyE86wDiETgBpw5Rfr8qWU9-8y5MHJz7aj4maPuxmW2Ij66J5hnXN_CTxTffUFBnwgbcneI0pKZT=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kids-room/imgi_149_AHRPTWm0M6F41isRRoYbeqEkjhJ69BYa7-Dy3I_uxIwH2zrwh1O0-QQi3b_QVMck7yP2Xm7lmg5-VpC2XLjLwcPuKfQpvd4FYWcVPMpURPrAH64L6J10iZdMucxoAqP4A0ptZ1Y4uuEoRQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kids-room/imgi_259_AHRPTWkThPnVJXIR9lRAUMJW9penDqACte1HqEjpb4HvsXAIR35Xzhnp-rsbBM0ZVJ1519K2rixdAIlPdescpjoIZHI7Kl-eALV4UaSn5HZYjqv0R_YC88tHooFrUiGWmi6QmuXv2F3ZZw=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/kids-room/imgi_45_AHRPTWmFaQUV7uIKW3LtLum11ZquZrBRuXmXAiWU1zcHSIbC_wpbAeTqFoZaaRBLNKSxOvP2VLa6sj1LYHryBaRZsusubz9-MI7Az0CX-0ih-fqukXr7Ev6JHwQzI3cZ8RLyuFu50rQDCQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kids-room/imgi_71_AHRPTWlfSsqPmtG2dkn1GNA2VlVI-yAmL6x42xNR6fb1UOpp6FcgA2hmNkMeIdl421E2VGxrmuXdaL96f-61kM0lEX4ThN91wCHUSm-FBRw4betHJNyhd0tBmtjD5jnRcQGWzq5poTK9=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/kids-room/imgi_81_AHRPTWm3SHPPpZ6ChSxSzuNAPRVyDTjc4BCnpy4RgRIlsb6rnYINdd86RbehRhebwFHoYKiV5g_bn-Rfgnkcb01kzoF585f9ldxI1CJo27cgUsJNFoSqI_8KVYMWs5Bl2C5qNM376gdf-g=s1280-k-no.jpg"
+    ]
   },
   "projects": {
-    "1bhk1": [],
-    "1bhk2": [],
+    "1bhk1": [
+      "/assets/studios/classy-craft/1bhk1/imgi_17_ACvplmPtPz9xZBcZ70OO-lgstMLesaWOQOB4oWlwva7ZOWsG4b3h9ACVaJvv4kMr_YhKdvfZWpo4jE0UFSI74LyFLrWwUhpk6YdItBCKRyd-TnVvTlZne_MgPKZmx7epkR-1X8qAHqceG6Dgg9w=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_18_ACvplmMugbl0uwT-Lges4CtYcTTwXaSOeqsVv31aXqyyBjQWHic6A_zq3ESJ_RlQhLF_8rFFts8d8UVWjSGDvdbP_ilj3r713RSmb5BhO01bafOYGkaNfzNKVW7M6lDnKmuy7XQzSZWLuzHHBkbH=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_19_ACvplmO0dk0rSD74wH-qkEgWq67WMy0a_3mZB0Dvc-tjr7USSUraoSTQSq0DtNSMIQwn7r62d2bxeVUs5bnEBolMr7b_0DyPD5B24rUTf-WDSs4YJptUoTKAhV7hv7kaI_6Zwb8HD32wvIJGSc_2=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_20_ACvplmNaKIF74PMPWIjwQQrNG_VLLbvLPvcKX5ZqTtcpkzuwov1QxxqxwRNi7AMz8efZ5OlDC8i7ZjmnC45q8M0O5l9KyMui-QQd1YJBDeZjTXcZLBom3ZfaiQNAoxUlSJf8LV-QBMvTQip3jh_7=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_21_ACvplmPhcTbM2r0IvNPDJ12pocAhqF5T3kT59KkUeiFJVkc3sfN38dL6PdhysAtuKsyp2cn7rBQ1XffK3LNWSUZXRl6mOnccdfZA3e95nBvdo0ofM_wm5dTA_T8eH-S8rWdpya0oy4ChxOGQyQ=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_22_ACvplmPP4g_sz81NSOX6MrXlrbkcdIZwHyOi2VmFLMJrkGFIvzWBc9Q8XVpHMqSDvmak2BPeu1sCmPidpgfTC6law0k4v_XUv6S0p0cD46CYh8Cv0GLYQCdir6Bt12Sh0D0U1F3t9PCyo0gZP1-U=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_23_ACvplmMwvs1vtwYSvYxM1Q0OggQsb1bgLUSa0ic7h3bZQfKrVFwZpL8_jBbmV43RhAACaNFtbML5bQ7vSBnwAKA82DrJQeqYOxfUOQjA89JbU9tn-QsXgPX5QvDdYw8sYrjK5ZkQkKJFKPag8os=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_24_ACvplmMfoiV3vF9S-rgmBEZiZololjzP-b1jwqYGICdE4Y7QV3qvtguQpfQ6-7JjB_eYdwdPHF1FOlS1IEufY7FAufoxxjxjhXDMbLBLakdumPl_ZzQ5RYqLmPbcn8XN-YoJs04rhLGz-Ilo2_Pz=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk1/imgi_25_ACvplmPsTmd5XHQtcdBWOBF1CYuQQom6TrdG3bCmJZ3j-uMkA95Q5VlyIcv43vaIv8GquQQKHC4qZ_XLQJls-4uSLfUHNDFbMN2PDuFOtA92BAa3a31meGSDSlr5UuXA0m8NI-xkgjRxivUvotk=w750-h563-p-k-no.jpg"
+    ],
+    "1bhk2": [
+      "/assets/studios/classy-craft/1bhk2/imgi_197_AHRPTWk18ribrx2iZsXrSbj7v7yKdLCoCMuxXA4Md2fGYluXVEXXonHMWgad1u1cgNfrXNLRx7xIq-OdUvdHfeiO9aj3ZUtFDH0L1uZobLgWb4fFSwM_sR1KU_Cw-CMwmIi68A=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk2/imgi_395_AHRPTWkSW58P4GcoOMPY5bwsyCQ5r9uJFMPrv5yoi58ZgUgrkJTgAExEvYfjASV6jb5M3GXZDBRCWEQJ_ZfHy8nr-3Btkh5aQ721GpLZmpaz9c5vm8BvfDks99i6GambDm-ej7oeDShiyg=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/1bhk2/imgi_559_AHRPTWlYExpmhEgdfP6XNCKhN5Oakgi9FoiaPOUse1Lc7j2CURK7_3qvy5ViUieUqBxo9UMZ3Eg5gMpdqNeGRxKoAmijpZixbFc7U9Pht36g_LMkIF_4VcLYrnb9WJutsfoex4QPuxJ3Mg=s1088-k-no.jpg"
+    ],
     "1bhk3": [],
-    "2bhk1": [],
-    "2bhk2": [],
-    "2bhk3": [],
-    "2bhk4": [],
-    "3bhk1": [],
-    "3bhk2": [],
+    "2bhk1": [
+      "/assets/studios/classy-craft/2bhk1/imgi_17_ACvplmMumn1fy-fNxG7eRdE7dHJXFxSMP9t3VYlIgALhVxypOMBL4bXCti5_m5TrWRou4xCA5Iyo9Zn0PanmzPLiKbHVEwHfpzzT9AjKK0vCCk9GsAurspDrJvX-5ExH7yIUeaIy0D33H-oEk1qx=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk1/imgi_18_ACvplmM37sXihtge73vRT4a-ta6rzTWTYapN5IhwGHtLgzcA5_Um0hIA2O-EGByAzW7cJnipo8JqJ_PgjVHCFNTqnzz-XHqX_6P8qEfKY_P6Jcdc5qzgQDp56AwICVNn3prOH21ijV16g2R-A3I=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk1/imgi_19_ACvplmMjZcbRmNOHkn2L8n31MVxIsSw4oGapP6DLLzWe1IWXMUxuu997C-oewpqD_DwPf7xNj5ziKknoDmpQS3hzCr_AczPUGD36PJmwdoBFAcwxd9OWOnfqllfaiqCnb-5m5MxQi6Paq1jPiWk2=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk1/imgi_20_ACvplmNdcLbYw0QggWv4ohtGWwOMNEOKJ_sVxnQnd9XeBXR_H5XH5JZzRESjazQx0wLgI8-M02IOysHz0abxi2QGSlBXFoKblwJmlLQYdKju7KR3uww3-v_sKBTk6ECCfcdGRgs0r1mcVYxVrzM=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk1/imgi_21_ACvplmP-p8n-exeqdLVaAArpWdoOGAYl6U3V4PZd37dyteusDj5tvb24KQyaPgNdvBWps6W-q46NepQgsu-JLLAWvJZweUcJxpBeFi6YPnrCf8FJqeQHLf-aTgr9_XBJd4_RIzkdjLwOJ9tKQzL8=w750-h563-p-k-no.jpg"
+    ],
+    "2bhk2": [
+      "/assets/studios/classy-craft/2bhk2/imgi_17_ACvplmMlgquARTRPjZfXgidiZ6LdsdkcEwS5xRPMmKB0ajfi2Nn9TQAkI-Ekb-KWtzo0DaGJBSeKA5jD-pxVhBmEznpFYo9ZoPiWJfyNawROc-PMh9ztTfffW5qvtAhSZRK5DVZPRRJgrHgqVF25=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_18_ACvplmOIwZHkJlcMXiY88Nkq3ADbIw1iT_d6pJJJ3ciRgnNSKJspMytNkkS6TAvdvL6aTJ7XcnNDQeNCRHe4-LSBMsQkCjwXc3cFzmcBugpn7Zw7eu98yoOnzMF2gvr5RpRtJ7TsJ5ZA3ZUnp7c0=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_19_ACvplmOZXo61RANUIDJBeBylzg5G2TXT2hJTlyx74NMowYLWafQHBYSRJmC16fqvDvaOcy_zdwQ_p7mG7kOe1_yV-2N3J0_Bxes4tkfvpDuTJO-6On76aBMHOCfgWHabKweHbFb8oFa5JkJShBtl=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_20_ACvplmPUwLnbdlglgO79edNPjHAnPj_kYzdIja9giosT-QWuJWN7MUSKhPAbC-hp7j1A4ltQXed-PrY_YHJcUunasdLJVGi2oZn680keEWtvl8LY82x2YITvEbCA0vmWG7XJ-f8O097ziAqNrM0b=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_21_ACvplmOL6tsX9W1DbGRYzV1uW3OIl9tm4C0YlQtv74ZLYZc8qPvqoS8Bc_cz3bGJ_IsJN7ciVzubnl4FUhO-B9MUWBgxvHClVgvNl1Foqf0AkRInO7rCbhpl9dGeeCosEPJWsERZSZGoAMOf9fm_=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_22_ACvplmOj9RIPgaeZ0UYY_k6RhN3BMChBP2B6tXOILR6PuqyCf3j78mLlldstmcU3Y2LBLGRggHRgTKk078oASto7uFQczPcU0O0zSci8LrthAv9AngKi9ShELHz7DH1Gj3obg8mKGFxfh1EGLcHc=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_23_ACvplmPkTuMVe5pW5rblkqrkKQVjOtHPb7dnWyEQlcg7c8gFwZSmY5AyRx3mLv0DCngPf95rzFFFBPTHV1g5ThctbaVZmXBmyARnPlv8gxHZi7Av_baRt3YsBxxQ_TdS0Ospu8zkPM320GsNuUFn=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_24_ACvplmOTnnJ1u-LVTCZ0Lj3UfkGMo5hqfjsGq8EtOkQB6A6RNiO0pZwK-NXPWkRt_htQGjVoiuLBgfa1Fgz6hRUTJA19zUNhKUMWFd3ZpvTupohHMce6TtVt5cOCQnHpHx9QxFt6Gt7Tt5Bfqafm=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_25_ACvplmMUNO-3wxOpqqIBwD-jA_nXUecB3O1JkaXGEDcIAco9MBTdH4CVXhoEWD43AavbljebZKU_SlqmK9RaJbuulxh6mT2brZUNzgTeujRSWly3mUZJO4xy4lo6V-iHvAVQKRfVMmDms7BO75ma=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk2/imgi_26_ACvplmPs-kNC_2gy2lotLRe62WdInePQuFPMIwDdXKIWeUa8RFRBZcdHEmwh0ClCa_ErKtfVRKiNCLS_ut-pPYuXX5YHldRYlDUlxhSiCTHEGDTaAxLjAiUHYFpWat0xvyDrmgLxf4u5v6KqH-kL=w750-h563-p-k-no.jpg"
+    ],
+    "2bhk3": [
+      "/assets/studios/classy-craft/2bhk3/imgi_105_AHRPTWnBrxKe9rffBFYeGAidE-POckQExFkFEELQNiyOrTRhSPyiFIjYKvAOgBCJ56E_TCQ1cmBUzFlRFadWNvACimAKbXvMDJm8R3UqjVoSsWFD86s8_l6Kotj9jeW-Ndlol0ZJrah9=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk3/imgi_21_AHRPTWl4ciCmwYgsgol9vS0lGpiuIkt0np9r4VnRjITnJSw9Ze7FKSacFNcYoOTndq_7kntwpfWVM7SLCAI-NbF9gTNNO6vXExhK_VKPlJQpSvs-DKx_VCwGzjT90Qtt2v8FXAdc6YPb=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk3/imgi_25_AHRPTWnYbKzMXMjZwzRbXiRq0IOlYfDJNqSncyX22YLWv0cLxv2WgNgkGpKcO32Zq0HjXgqCzDZdZCQU0zt3r5I1HrmYUdc0dK6tAfIgTBgxzIPutsrm7Dpbf-oovcQOvyI-HTYTPnfD=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk3/imgi_41_AHRPTWlTGwlyP9Ov28vkFPoevfWSS0MSjVVJp2jQ6SK9uWuoqD3pshBVdPFE6niCWxEktuetDiG6JJ8a29nwM1ciZXpkfFLRlNT9Udi2l89iTffDfx8VDZH6RDjXbG9VtVOrARIXShm4=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk3/imgi_67_AHRPTWnIwV8w_viU_jQOvx2t5yBQjFlkoq4sp9AeATlGuA8YRciXYlvDTCiYnqwUNF95jFne24LJedlOMdGKbNUbl3oIPDb9gltAXRAisCnIxJRlgWeb56i1I3WoiHXgnFm7EeN0AnWP5A=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk3/imgi_85_AHRPTWk_SdTIFT3tWEWgk9qA4UJilk-oJ7gYeZXc7daxk4klaXFBU8MfFx2dUEtaGuTrWM6shUDZkmdeuD0HDfMXWK9oxeC3j4Fc86m2TlxRNghHWN6LykmZhFEiY3exSX3BsQp4akLo=s1088-k-no.jpg"
+    ],
+    "2bhk4": [
+      "/assets/studios/classy-craft/2bhk4/imgi_183_AHRPTWnHkkgFIazLepI2HQxyNkaOgroqnJibnYjGwoHjjp0-fWhfq8ivpHKA8knr-tbsuo1bWB-7MeT4hdab050ug5SbqVnJEaiUvPBDA3oPuFz0GpyuRcfIAdCCu4XF2CR4jTqQefC1HQ=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk4/imgi_203_AHRPTWmIL6JUvXTqEnR8gi1mMsWjOSYt6LQ_ElZnvasbWMofFO-VqsIYgXKgX8qqHcLGFDOuNEkD6TZiyAcp6dfZs6ACGrH5jx1nPmsCwLIGCOCYlsVvc8AP_Dg7JXC-b7ICAFqOZmTw1w=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk4/imgi_21_AHRPTWl4ciCmwYgsgol9vS0lGpiuIkt0np9r4VnRjITnJSw9Ze7FKSacFNcYoOTndq_7kntwpfWVM7SLCAI-NbF9gTNNO6vXExhK_VKPlJQpSvs-DKx_VCwGzjT90Qtt2v8FXAdc6YPb=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk4/imgi_227_AHRPTWnp_R3NRGH5WBBCecZufHjxMoBHYz9B06ly1tUGKiy5csQdsYxl_uEUneNOb-MJSSWc0krL-_bHXjzEQSt1Zg6ro-3xLvoEmAC00Kmy4c5dO-G3VtMMTNtJ4TInXq1AOJnjjUDj=s1280-k-no.jpg",
+      "/assets/studios/classy-craft/2bhk4/imgi_71_AHRPTWlfSsqPmtG2dkn1GNA2VlVI-yAmL6x42xNR6fb1UOpp6FcgA2hmNkMeIdl421E2VGxrmuXdaL96f-61kM0lEX4ThN91wCHUSm-FBRw4betHJNyhd0tBmtjD5jnRcQGWzq5poTK9=s1280-k-no.jpg"
+    ],
+    "3bhk1": [
+      "/assets/studios/classy-craft/3bhk1/imgi_17_ACvplmOK-XzNqviHmel-WptQSMiQ-c4Xe6yc0pTPczMWtPRx7PyHz60Xq8TPTQdostcnBDq19y8bYf-bcPdsF1CJ2wI2puBirETteZXKto2ts4yrcmI63Rf-bWz3_BG9_L3G8vZ1ZxLnPIF4HOI=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_18_ACvplmMug1JWoQytFTt8RJbyPF9zuMnCfbUvsA9HcsPOxvKEinVgHzegDbGx7mbSjb3einDryc7eHO2jfB3epczoVPu2NQ8MAx-azuzguHSPtDkLcjA9h9zQXLZrCBuuPypdfpEvF1G2wh3V-Bh_=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_19_ACvplmNaO1jXCO7dhdtnEqOyhBMSvGvmVFRHbBFm5P6bYBxcq5FjFgSGk3Zeexv-kOdcer3q6a8sMhRJvvlQ4m4F4-7SfAEtvJXv4LfTjyX60cIDkUrFvQzQ8mPG3ebNhNFdPnPHIUd1itTVjpo=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_20_ACvplmP9Frxo4g6JEmLcVr1wPtcJZ3Cf0bvQUw6pM_KMke1wcLTSTolesn7ASCnBXKpggOw0RtFiJqPJldSTxmsp_BTp8jZcuLmBkNC3yxSh08YJyMiWr_nzHxT4paM7GOnRt37FIHzmfQtkNus3=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_21_ACvplmNoRwMyhXB9fqxMjewG2PHt4oWdyXn-FLf4wztEGqmtBcID63EjsbeVQL6Gd1-jcfTIaDL-0ObmMCsjjAOtLNFyAAlQXivVhRQTgTG9v5Ra8vlQL5fEpDK82AESKhrkrLREXgAMpitmwSxp=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_22_ACvplmM7m0tKLxcXnjXg9DCuxoFr6cbdkDK3DozOXfDMt7jmQy9NM6wHOiRllI1A7QmTYVCL5cs4aDi01_Y2PFXfQ3Y0xR2Fx1zXfMyQqP0DWXqN7M_tTn2fR4f3q46H9Fywyr24oBzZT8PMAfF4=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_23_ACvplmNwGTOUJXzO5QTXVEMANIh2VeydXNHvjoJLaw-upxQK8UDagEVDp0zcOd1MEX-pNXLEEVNPyG_P-hjF3k5zQnHcbYT-JpsIiI_OGaTXXHapFWde62X9VhY34S8rXh7pAFfOfP3sOvaOvK-e=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_24_ACvplmMEwJgQ5PKzJ7BZMW7ckXkki0-EGZVJI4ELDp39ZPcCrX4bWDM50KEpfEA-xXC3GAzQuxUyN61rnfn76eejHAA18zvIx0j8Gs2Szt8uhhLtI6epyYoYQentuf4eUiSVRODCpDPt13GSrKx-=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_25_ACvplmNPhNseKibMIYjv-v5SqKFw5KDH70ZYAESgUEjMrXvpPiDVG-ZSi90U9blLdsPwrYO6F4wUn6zvsut0yM2XJBAJGUF_8ZV4An0LqXwr672v2zeD2MlMyH2AttBD8IpLdBjT6OFXpniXyHre=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_26_ACvplmPNQGHma1qmqjAEi5Wjr8E4xgQo_DtHVyV5vKMSBBPzpiZVLExcMhs4npdXv8gkyPDcjK6fVUC1uxNAEYS97D7K1GeaP96WQinLmyuBCBw_-f1OzwRT31YSPMtCRyZFFguE59VGI9eZ11w=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_27_ACvplmPgDAxVOxeXCRl0qiXzsf0H_8eLRiPaxrjYoZT0siznK4kPIIk2qwF7a9IKiWh2xBa1NjnW-uJJGMZ61vOWDIYBqy8fGopOONjIL-e0i6lxc4x4M7DpwIaC3U0-YrHHSFkEXS83jh4KnUtn=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_28_ACvplmPNVIkHpkA8Zbw3KmOvxpA6vP5YCSDErl_vHDj44x712NXl4wiANdLRnlHzjaaoNYGSU9NLpzpoU8YOhbqbtgjdi-YScaGdAy69AnwsWR8Pqow5ifm0a-jzdwQk_GRGbmW5rZJdjfpnTT_n=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_29_ACvplmNJKQdfLn4vtyrPpPzUPdF2Ae7y2p0KI__0dgs9gksVvSZQJ0fkBb9jpeQuoz17Q0iywJcCuTTZlXAkApP1CM3VEW0cepyFJy1J1nA1iwqZQSFwuryD0wmDbFfOuIspdWnB7FbNBAkaZfaE=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_30_ACvplmNBx1bZ0UDx3BjchmKrPm588Ynnk-t1A8KlcD2_YnlhoyWlrKtZexb4P7CBKzQ7qeSGr8XLURLRvqDyqXF512EyacM9DupwuM8BIQsWSEtEk5jkPZ_gW0CtmL1Zx08Chd-jH0Zu5sR2wmUQ=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk1/imgi_33_ACvplmOTEP4g2exysXp13WsNqPDzNnt_nV1XH6C1TebgNU4ArhkQHccPvYn5nQ0T_-8rovJQBeexUaW7p14Wz79qFlIpotg501wvcBUOcGhaN5thqnBg3Qepn9AL_aNKJ53hGsT2OKnrMQUBWcCs=w750-h563-p-k-no.jpg"
+    ],
+    "3bhk2": [
+      "/assets/studios/classy-craft/3bhk2/imgi_107_AHRPTWmYpWH39vQEoDh9YYxDhmOfgL5VHYHPQWVhtds2MD1GD9UZPRysPBCol4wut40Cu1ofMmSWrBHnMQ-D_Z0WbbiPhe1PXbdKynB3YGj_Gz-CXO_ij4rLnaVenkos78cItOIYv8qy=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_119_AHRPTWnm80qkvUOb3DigJirPUUNvr0wDzApiWPeL0Yj75PcZ23P74sT64HwalZW1IiClJ8bVLacu8FVJsG06MR6W7lJ77mE8oSc1uuLY6zzLXGd0pblK6wyKEy4EutSL_TL80YnWt2-0TE8PLEuE=s1127-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_179_AHRPTWnKVsmVCm0fzKD-nhHAL1-BO0xnf3v4MTwR6KFC9VY_qXNOjdj7GAyYBGn_hEfbyyEZDn9SpiCisb4Y8jOYScADjpkpdnxseyDmnknkiZdJ-My4vywCq3Mni2RYkvgtKYfThQul=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_25_AHRPTWnYbKzMXMjZwzRbXiRq0IOlYfDJNqSncyX22YLWv0cLxv2WgNgkGpKcO32Zq0HjXgqCzDZdZCQU0zt3r5I1HrmYUdc0dK6tAfIgTBgxzIPutsrm7Dpbf-oovcQOvyI-HTYTPnfD=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_43_AHRPTWmgSYrlRpzktSxOZDGwxA1kVk8eTGu9B0W_FetLSpj7_twiqgBBqHVKYfhvAm0AdPZ2WmWSPCJNODbeHtBgWRG14rkri-esAIdb4zeRsdyxgiOJdKAwJAaQcQUHc8xAPdIaOIyc_WP_mDYd=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_441_AHRPTWn7DM9deyJWcpc1QY2lUFvTN3HHUSD9PFSPCsc7OFRk8Ehle0JnK6sSXyxbJ7VBKHje6wWXKkIdZsevcUK9QWvSBc6Ifuoyxy7BInpeqJlGrAhnxod8DPIvDAbc68CiPICHyMU=s1270-k-no.jpg",
+      "/assets/studios/classy-craft/3bhk2/imgi_495_AHRPTWnP6mXJTZFQC1puHflEZOsaMtqc9f3d92nM8M0sdGDnBHtV2no7A22C6F8iK1DYziUMHXp5ORLUIVpfYzly-P1VJE79DDzFq8pAYzNiH1sHRUAIKX7NDgirSoVxVbMPmg89__jI5d0yh3nw=s1270-k-no.jpg"
+    ],
     "3bhk4": [],
-    "3bhl3": [],
+    "3bhl3": [
+      "/assets/studios/classy-craft/3bhl3/imgi_103_AHRPTWl_J1qmqUQl4llR4rXCMjiKe1kOE3QssQ5Fwi6FnhZ_UmEok3h4CNso_bW8sf3Snj0NdH5eHlw_1O6DOWGVCWctFYG3MSqAGY1Kwn5h9czkdXZlBI87RW-8g20jU-qi5jyMQNFW_Q=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/3bhl3/imgi_107_AHRPTWmYpWH39vQEoDh9YYxDhmOfgL5VHYHPQWVhtds2MD1GD9UZPRysPBCol4wut40Cu1ofMmSWrBHnMQ-D_Z0WbbiPhe1PXbdKynB3YGj_Gz-CXO_ij4rLnaVenkos78cItOIYv8qy=s1693-k-no.jpg",
+      "/assets/studios/classy-craft/3bhl3/imgi_197_AHRPTWk18ribrx2iZsXrSbj7v7yKdLCoCMuxXA4Md2fGYluXVEXXonHMWgad1u1cgNfrXNLRx7xIq-OdUvdHfeiO9aj3ZUtFDH0L1uZobLgWb4fFSwM_sR1KU_Cw-CMwmIi68A=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/3bhl3/imgi_63_AHRPTWnsksm7Lsy6r_8j7kX7KjvAbOM7YoaLyoUnXkhT1vWUMplRg2EQ1en1XgqOn1jtvr7sYTx-RpYkM04OQDyPEXBTxpHKExUBy6SIJMLONF1J_uUys4DIUS-ahHlAt1AsKzimKoRFvA=s1088-k-no.jpg",
+      "/assets/studios/classy-craft/3bhl3/imgi_77_AHRPTWn9mi7jGOtBGol3tJNXGA1Kn6EdDdu27Lt_0pqfWrbRKEKIYrdMdmBBRwBxORnFXHXmUxwD0rAL_dPI-rioWduOtDrRRiC44Hi-0hpjyeC0bMioKU_MusatryUSL8z2XFhiMpo=s1088-k-no.jpg"
+    ],
     "villa1": [],
     "villa2": [],
     "villa4": []
   },
   "commercial": {
-    "office": [],
+    "office": [
+      "/assets/studios/classy-craft/office/imgi_219_AHRPTWlGCHkzKnKhyp_mqzHw2ANY6wGFXRwcExAhRlRr2OkVSoSaLLKRsU8PUX8Kl9K4HBuWMMCqAd4XpQPCM3dwm4_gavhk_eXC5gE9SInBY3XaG5ujgASb4KqZdT3X0I0LIR6qvUfM6XomcPEc=s1289-k-no.jpg",
+      "/assets/studios/classy-craft/office/imgi_479_AHRPTWldlf4SnkKrvyH9IYfycK67fHJHcV2Txe9LjjhN4TvQNIxs3sPN8OqIOFORadHLqc2ff7rPF0oeTSY7k-wgYFIqFMGZxaaI_scf1ChPPTvdt954LD5P7eiqlIvbwEbTqUTuhgQDCbqH1u_d=s1289-k-no.jpg",
+      "/assets/studios/classy-craft/office/imgi_485_AHRPTWmjGgklaru_VVsMuTOFR5vIe972XQ9v2xZ6ZViRUyfVHgPImbJU1oDjloKtE86czumMpKRPM0buJZsjO-je6EPMfN93_heaRDL0Ah3lPe11vRa_9DDLtTu853KS-8q5DgWqV-GGow5P5dw8=s1289-k-no.jpg"
+    ],
     "restaurant": [],
-    "shop": []
+    "shop": [
+      "/assets/studios/classy-craft/shop/imgi_21_ACvplmNojEY0un1MUa1rYp2LjkfotlyfOg1ZhULXbb_h39W41cFYBnbERLxK12IrJ3pqaGaD1w0_Zn8uI_HwVmFypCwYMqOxV2R89g5RS3qteuf2Sm30HAG1XeO3_cB_MVIcnGQFkFUEjSAUFM_b=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_22_ACvplmMuFLcsCPQXlyhy7eEfhaSFcmBRlW4EuIWda9LOOTvDCC2_TfIzA0u7V51cBmmV4Ix8o7VlpCYyPqEc7Qbpelk6uYDpjIVp_9A5dHlEWDHootl87jRhjGoZ2-PcMrgrV5LxSEkXm0_MtFQ=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_23_ACvplmPG2OEJK8eZyQKST_kGaw04ynFubUVnk49SYhangjUO6cGAhNYa-B8BqnCrekY92HKMd2V0jQVohjjgQMxcIQ2_GOnzNZOtw-xRyBAM77b_X4k72nfgqzZezahuu2gcbDRg5aSqswnhvTRL=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_24_ACvplmOvqSHr_EmkG7BKWyGMbknLXKc3EGEbVYd_12gf8ibW8Xc-VUD4XJLwhXmfyBZG0wb78ZnxkMnjRmw57uSd9m2nFIJjcMktljg2FxEkt_STlAF7zNbSD9uRsukItNOBjtjKPW-pbDcIi0g=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_25_ACvplmPbKFse6kfE8CfijFPmahMP5vmLOlIRZHUb69m9kQ3F6AaWiXYwM3fUyTEWOD0RB1Pu3_1LQ1C65ATVcSCN-SdBw9FwXGhEusMdl70jRigvL-kh2_Y7aCCri7n90nfiSBvwO56-jEMiO2c3=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_26_ACvplmMusD4D_uARtEna_ZeYrBCFTM-HbJblsXsC_hPmWl2j2WmhmVTEQhfgd-ErhdU50Ian2IPH7YuacZvdg04vLU5yr_-4kfX-OmG4-GblLBGqUXnmXBgLCT22jHKfU87wmvxRivW_hvXWHPQ=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_27_ACvplmOHjPRZdbmdIIrcROMGsyJcs6KgKJELF5dGklKqNF1hXr0RL8IQSvyxG_B4vx2AHdDJj3N8NumKHQCNgHlPirpseiwfiY-5rsPfr8isNc6ECKKSczzOJf4Cg1iiQoLreeEjh19jkEenPPco=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_28_ACvplmNvA8a6lVgAL3pJYoeXAkWHk2dHTsX1S7Mrwv4FdtPmhYCHel220zcqeubVLLZe7eYAohCb7cFewBPpzgS7BmKLTJnMJZiNkldk15Chdc9rdRaKFrnDnldAVk408RkN0rcHU3F9ZYakkgoi=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_30_ACvplmMC_AOzWrUdNKOnr4FBIWrQ_NV2-KjrfIKeUF8imWjks9mgbkXHpiooWJ82Cpcoes3mcr22YS_pxs1wFuf6bw24Fo2AutusoIf0HTJM6ODMeH0dDCaBG6GPjDx33T0luYXciHd1RVzDY97s=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_31_ACvplmPwCpWkFnM8CkjNX2bMisBMaZ7lF4t0fOtq5PfWgdEsEAwauIfvg25DBSjSQxDRGJIt51D8KQrmVS5MZMK9HUv6O7cJcG3jIYBROCy4kR2fPIqN7_UOCWcKSurAbrYNbOPG-SEG_94WkUoX=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_32_ACvplmPtux2u6reprnOns6Uj652JSlgVTVZFYA-SYc5PMcXd5rOiCtWgqZMCYjfyjMhN2eNcm3IOeqqqOlmheNJTFGaXf4Pb_vSyyZNlXu2ocETV3i6sFZ4MzGlgOtKUJCC8H239E96_sm5iX4V9=w750-h563-p-k-no.jpg",
+      "/assets/studios/classy-craft/shop/imgi_33_ACvplmNl2gFS3x7oLh8uywPVIxLhCD_Ob404yb8UIhQFGrEgl2MYlR0eRPSoG-_uENeib0VmRT4HACtzErPArle0HIuyoLQ6j0QO7UpiIGeqA2NuEa068L0RM0UmXZoI7Pri151BaRoWO0bTwdXY=w750-h563-p-k-no.jpg"
+    ]
   },
-  "highQuality": []
+  "highQuality": [
+    "/assets/studios/classy-craft/high-quality/imgi_441_AHRPTWn7DM9deyJWcpc1QY2lUFvTN3HHUSD9PFSPCsc7OFRk8Ehle0JnK6sSXyxbJ7VBKHje6wWXKkIdZsevcUK9QWvSBc6Ifuoyxy7BInpeqJlGrAhnxod8DPIvDAbc68CiPICHyMU=s1270-k-no.jpg"
+  ]
 }

@@ -1,4 +1,4 @@
-import { getEffectiveProjects, getEffectiveRooms } from '@/lib/studio-overrides';
+import { getEffectiveProjects, getEffectiveRooms, getEffectiveServiceCollections } from '@/lib/studio-overrides';
 import { encodeShowcaseToken, DEFAULT_SHOWCASE_SETTINGS } from './showcase-token';
 
 export type ShowcaseItemKind = 'project' | 'portfolio';
@@ -53,6 +53,21 @@ export function getAllShowcaseItems(): ShowcaseItem[] {
       location: 'Portfolio Reference',
       gallery: collection.images
     });
+  });
+
+  getEffectiveServiceCollections().filter(c => c.group === 'commercial').forEach(collection => {
+    if (collection.images && collection.images.length > 0) {
+      items.push({
+        id: `portfolio-${collection.slug}`,
+        kind: 'portfolio',
+        title: collection.title,
+        category: 'Commercial Category',
+        image: collection.images[0],
+        description: collection.description,
+        location: 'Commercial Reference',
+        gallery: collection.images
+      });
+    }
   });
 
   return items;

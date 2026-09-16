@@ -21,9 +21,22 @@ function mergeImages(templateImages: string[], studioImages: string[] | undefine
   return result;
 }
 
+const ASSET_FOLDER_MAP: Record<string, string> = {
+  bedrooms: "bedroom",
+  shops: "shop",
+  restaurants: "restaurant",
+};
+
+export function getAssetFolderName(slug: string): string {
+  if (slug in ASSET_FOLDER_MAP) {
+    return ASSET_FOLDER_MAP[slug];
+  }
+  return slug;
+}
+
 export function getEffectiveRooms(): RoomCollection[] {
   return roomCollections.map(room => {
-    const studioImages = manifest?.rooms?.[room.slug];
+    const studioImages = manifest?.rooms?.[getAssetFolderName(room.slug)];
     return {
       ...room,
       images: mergeImages(room.images, studioImages)
@@ -38,7 +51,7 @@ export function getEffectiveRoom(slug: string): RoomCollection | undefined {
 
 export function getEffectiveProjects(): Project[] {
   return projects.map(proj => {
-    const studioImages = manifest?.projects?.[proj.slug];
+    const studioImages = manifest?.projects?.[getAssetFolderName(proj.slug)];
     if (studioImages && studioImages.length > 0) {
       return {
         ...proj,
@@ -59,7 +72,7 @@ export function getEffectiveProject(slug: string): Project | undefined {
 export function getEffectiveServiceCollections(): ServiceCollection[] {
   return serviceCollections.map(collection => {
     if (collection.group === 'commercial') {
-      const studioImages = manifest?.commercial?.[collection.slug];
+      const studioImages = manifest?.commercial?.[getAssetFolderName(collection.slug)];
       return {
         ...collection,
         images: mergeImages(collection.images || [], studioImages)
@@ -94,7 +107,7 @@ export function getEffectiveHomeServices() {
 
 export function getEffectiveCommercialServices() {
   return commercialServices.map(service => {
-    const studioImages = manifest?.commercial?.[service.slug];
+    const studioImages = manifest?.commercial?.[getAssetFolderName(service.slug)];
     if (studioImages && studioImages.length > 0) {
       return {
         ...service,

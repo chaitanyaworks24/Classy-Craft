@@ -2,30 +2,30 @@
   "slug": "classy-craft",
   "name": "Classy Craft Interiors",
   "logo": "/assets/logo-transparent.png",
-  "address": "Studio address — update before launch",
-  "phone": "+91 70580 88895",
-  "whatsapp": "917058088895",
+  "address": "611/544/130/5A, Immadihalli Main Rd, Hagadur, Immadihalli, Whitefield, Bengaluru, Karnataka 560066",
+  "phone": "9900028282",
+  "whatsapp": "7058088895",
   "website": "www.classycraftinteriors.com",
-  "googleMapsUrl": "#",
-  "googleReviewsUrl": "#",
+  "googleMapsUrl": "https://maps.app.goo.gl/Ffrm1faGxmWS7n4z5",
+  "googleReviewsUrl": "https://www.google.com/maps/place/Classy+Craft+Interiors/@12.9668382,77.4751216,11z/data=!4m12!1m2!2m1!1sclassy+craft+interiors!3m8!1s0x3bae134f435ef44f:0x431ac8751778248e!8m2!3d12.9668382!4d77.7635127!9m1!1b1!15sChZjbGFzc3kgY3JhZnQgaW50ZXJpb3JzWhgiFmNsYXNzeSBjcmFmdCBpbnRlcmlvcnOSARFpbnRlcmlvcl9kZXNpZ25lcuABAA!16s%2Fg%2F11hy9rq18y?entry=ttu&g_ep=EgoyMDI2MDkxNC4wIKXMDSoASAFQAw%3D%3D",
   "reviews": [
     {
       "id": "r1",
-      "author": "Aditi S.",
+      "author": "Honnallikas Nagendra",
       "rating": 5,
-      "text": "Working with the team was a seamless experience. They understood our lifestyle and translated it into a home that is both beautiful and highly functional. The attention to detail in the cabinetry is outstanding."
+      "text": "Absolutely loved how my interior project turned out! The design perfectly blends style and functionality, with great attention to detail. The entire process was smooth, professional, and delivered right on time. Highly recommend for anyone looking to transform their space!"
     },
     {
       "id": "r2",
-      "author": "Rahul M.",
+      "author": "Spoorthi H",
       "rating": 5,
-      "text": "Transparent pricing, clear timelines, and flawless execution. They transformed our 3BHK into a serene, modern space without any of the typical contractor headaches."
+      "text": "No words to thanks the team for there work and dedication. The proofs are evident on the photos added. Madan and Praveen have shown their true self by their dedication and commitment.\n\nThank you both to bring a new twist to our house."
     },
     {
       "id": "r3",
-      "author": "Priya K.",
+      "author": "Raghunath TL",
       "rating": 5,
-      "text": "Their design philosophy really shows in the final result. Everything feels considered and built to last. It’s a quiet kind of luxury that we appreciate every single day."
+      "text": "They are passionate about what they do. Even if you don’t have any idea about how your interiors should be, classy craft folks provide special guidance and help you select what suits you the most and your place. They kind of read your mind and understand your requirement. Whatever may be the size of your space, they have great ideas to make it look beautiful. Delivered in time. Classy and elegant work delivered. Thank you guys. Happy with the work"
     }
   ],
   "theme": {

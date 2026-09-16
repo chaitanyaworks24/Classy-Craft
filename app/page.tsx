@@ -17,7 +17,7 @@ export default function Home() {
   const roomCards = [
     ['Kitchen', 'kitchen', effectiveRooms.find(r => r.slug === 'kitchen')?.images[0] || '/assets/rooms/Kitchen/imgi_19_138-1775458964-w17LJ.webp'],
     ['Living Room', 'living-room', effectiveRooms.find(r => r.slug === 'living-room')?.images[0] || '/assets/rooms/living room/imgi_11_lr-2-1785987661-X3R94.png'],
-    ['Bedrooms', 'bedrooms', effectiveRooms.find(r => r.slug === 'bedroom')?.images[0] || '/assets/rooms/bedroom/imgi_11_06-1785331585-TpqGR.jpg'],
+    ['Bedrooms', 'bedrooms', effectiveRooms.find(r => r.slug === 'bedrooms')?.images[0] || '/assets/rooms/bedroom/imgi_11_06-1785331585-TpqGR.jpg'],
     ['Wardrobes', 'wardrobes', effectiveRooms.find(r => r.slug === 'wardrobes')?.images[0] || '/assets/rooms/wardrobes/imgi_36_77-1780901142-4H9hu.jpg']
   ];
   return (
