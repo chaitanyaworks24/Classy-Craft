@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight, Check } from 'lucide-react';
-import { credibilityStats } from '@/data/company';
+import { credibilityStats, companyConfig } from '@/data/company';
 import GoogleReviews from '@/components/GoogleReviews';
 import FaqAccordion from '@/components/FaqAccordion';
 
@@ -11,7 +11,7 @@ export default function About() {
     <main className="page">
       <section className="page-intro">
         <div>
-          <div className="eyebrow">WHY CLASSY CRAFT</div>
+          <div className="eyebrow">WHY {companyConfig.name.toUpperCase()}</div>
           <h1>Quietly considered. Built to last.</h1>
         </div>
         <p>Our approach starts with how a space needs to work, then builds a visual language around it.</p>

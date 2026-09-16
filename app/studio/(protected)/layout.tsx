@@ -36,7 +36,7 @@ export default async function StudioLayout({ children }: { children: React.React
             <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', fontWeight: 500 }}>
               {companyConfig.name.toUpperCase()}
             </div>
-            <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: '#888', marginTop: '4px' }}>
+            <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--muted)', marginTop: '4px' }}>
               Studio Portal
             </div>
           </div>
@@ -54,7 +54,7 @@ export default async function StudioLayout({ children }: { children: React.React
           </nav>
 
           <div style={{ padding: '24px 12px', borderTop: '1px solid var(--line)' }}>
-            <div style={{ padding: '10px 12px', fontSize: '13px', color: '#888', cursor: 'not-allowed', display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <div style={{ padding: '10px 12px', fontSize: '13px', color: 'var(--muted)', cursor: 'not-allowed', display: 'flex', alignItems: 'center', gap: '12px' }}>
               <Settings size={16} /> Settings
             </div>
           </div>

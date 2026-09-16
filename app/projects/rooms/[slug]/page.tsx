@@ -1,14 +1,14 @@
 import {notFound} from 'next/navigation';
 import Link from 'next/link';
 import {ArrowRight} from 'lucide-react';
-import {roomCollections} from '@/data/rooms';
+import { getEffectiveRooms, getEffectiveRoom } from '@/lib/studio-overrides';
 import ConversionCard from '@/components/ConversionCard';
 
-export function generateStaticParams(){return roomCollections.map(r=>({slug:r.slug}))}
+export function generateStaticParams(){return getEffectiveRooms().map(r=>({slug:r.slug}))}
 
 export default async function RoomCollectionPage({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params;
-  const room=roomCollections.find(r=>r.slug===slug);
+  const room=getEffectiveRoom(slug);
   if(!room) notFound();
   return <main className="page">
     <section className="page-intro">

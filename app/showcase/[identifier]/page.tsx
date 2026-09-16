@@ -14,7 +14,7 @@ export default async function ShowcasePage({ params }: { params: Promise<{ ident
       <main style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '20px' }}>
         <div>
           <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', marginBottom: '16px' }}>Showcase Unavailable</h1>
-          <p style={{ color: '#666', marginBottom: '32px' }}>This showcase link may be incorrect or no longer available.</p>
+          <p style={{ color: 'var(--muted)', marginBottom: '32px' }}>This showcase link may be incorrect or no longer available.</p>
           <Link href="/" className="dark-btn">Return to {companyConfig.name}</Link>
         </div>
       </main>
@@ -29,7 +29,7 @@ export default async function ShowcasePage({ params }: { params: Promise<{ ident
       <main style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '20px' }}>
         <div>
           <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', marginBottom: '16px' }}>Empty Showcase</h1>
-          <p style={{ color: '#666', marginBottom: '32px' }}>This showcase doesn't contain any valid projects or collections.</p>
+          <p style={{ color: 'var(--muted)', marginBottom: '32px' }}>This showcase doesn't contain any valid projects or collections.</p>
           <Link href="/" className="dark-btn">Return to {companyConfig.name}</Link>
         </div>
       </main>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { credibilityStats } from '@/data/company';
+import { credibilityStats, companyConfig } from '@/data/company';
 import GoogleReviews from '@/components/GoogleReviews';
 import FaqAccordion from '@/components/FaqAccordion';
 import { getEffectiveHeroImages, getEffectiveRooms } from '@/lib/studio-overrides';
@@ -91,7 +91,7 @@ export default function Home() {
       {/* NEW: Trust Section */}
       <section className="trust-section">
         <div className="trust-intro">
-          <div className="eyebrow gold">WHY CLASSY CRAFT</div>
+          <div className="eyebrow gold">WHY {companyConfig.name.toUpperCase()}</div>
           <h2>Why Bangalore Families Trust Us with Their Homes</h2>
           <p>Trust is earned, not claimed. Our reputation is built through thoughtful design, quality execution, and transparent communication throughout your interior journey.</p>
         </div>

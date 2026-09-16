@@ -18,11 +18,11 @@ export default function StudioLogin() {
 
   return (
     <div style={{ display: 'flex', height: '100vh', background: 'var(--surface)', alignItems: 'center', justifyContent: 'center', padding: '20px' }}>
-      <div style={{ background: '#fff', padding: '60px 40px', border: '1px solid var(--line)', maxWidth: '400px', width: '100%', textAlign: 'center' }}>
+      <div style={{ background: 'var(--surface)', padding: '60px 40px', border: '1px solid var(--line)', maxWidth: '400px', width: '100%', textAlign: 'center' }}>
         <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '24px', fontWeight: 500, margin: '0 0 8px' }}>
           {companyConfig.name.toUpperCase()}
         </h1>
-        <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.15em', color: '#888', marginBottom: '40px' }}>
+        <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--muted)', marginBottom: '40px' }}>
           Studio Portal
         </div>
 
@@ -32,7 +32,7 @@ export default function StudioLogin() {
             <input
               name="email"
               type="email"
-              defaultValue="demo@classycraft.com"
+              defaultValue="demo@studio.com"
               style={{ width: '100%', padding: '12px', border: '1px solid var(--line)', background: 'transparent', outline: 'none' }}
               readOnly
             />
@@ -55,7 +55,7 @@ export default function StudioLogin() {
           </button>
         </form>
 
-        <p style={{ fontSize: '11px', color: '#999', marginTop: '20px' }}>Demo Access: Use "demo@123"</p>
+        <p style={{ fontSize: '11px', color: 'var(--muted)', marginTop: '20px' }}>Demo Access: Use "demo@123"</p>
       </div>
     </div>
   );

@@ -50,7 +50,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
           
           {BUDGET_RANGES.length > 1 && (
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
+              <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Budget</span>
               <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
                 {BUDGET_RANGES.map(b => (
                   <button
@@ -60,7 +60,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
                       padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                       border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                       background: budget === b.label ? 'var(--charcoal)' : 'transparent',
-                      color: budget === b.label ? '#fff' : '#666',
+                      color: budget === b.label ? 'var(--ivory)' : 'var(--muted)',
                       borderColor: budget === b.label ? 'var(--charcoal)' : 'var(--line)'
                     }}
                   >
@@ -73,7 +73,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
 
           {styles.length > 1 && (
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
+              <span style={{ fontSize: '11px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginRight: '16px', width: '60px', flexShrink: 0 }}>Style</span>
               <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', scrollbarWidth: 'none' }} className="hide-scrollbar">
                 {styles.map(s => (
                   <button
@@ -83,7 +83,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
                       padding: '8px 16px', fontSize: '12px', borderRadius: '30px', flexShrink: 0,
                       border: '1px solid', cursor: 'pointer', whiteSpace: 'nowrap',
                       background: style === s ? 'var(--charcoal)' : 'transparent',
-                      color: style === s ? '#fff' : '#666',
+                      color: style === s ? 'var(--ivory)' : 'var(--muted)',
                       borderColor: style === s ? 'var(--charcoal)' : 'var(--line)'
                     }}
                   >
@@ -107,7 +107,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
               <div className="service-card-copy">
                 <div className="eyebrow" style={{ color: 'var(--charcoal)' }}>PROJECT</div>
                 <h2>{p.title}</h2>
-                <p style={{ fontWeight: 500, margin: '8px 0', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.06em', color: '#555' }}>
+                <p style={{ fontWeight: 500, margin: '8px 0', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--muted)' }}>
                   {p.areaSqFt} sq ft · {p.timelineWeeks} weeks · {p.budgetLabel} · {p.location}
                 </p>
                 <p style={{ marginTop: '12px' }}>{p.description}</p>
@@ -136,7 +136,7 @@ export default function ServiceProjectGrid({ projects, basePath }: { projects: P
         )}
 
         {filteredProjects.length === 0 && (
-          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '60px 0', color: '#777' }}>
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '60px 0', color: 'var(--muted)' }}>
             No projects match your selected criteria.
           </div>
         )}

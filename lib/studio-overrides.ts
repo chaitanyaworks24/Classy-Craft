@@ -43,7 +43,7 @@ export function getEffectiveProjects(): Project[] {
       return {
         ...proj,
         image: studioImages[0], // First image is cover
-        gallery: mergeImages(proj.gallery, studioImages),
+        gallery: studioImages,
         // If they provided studio images, but no explicit before images for this studio yet, we empty beforeImages for safety.
         beforeImages: [] 
       };
@@ -111,9 +111,10 @@ export function getEffectiveHeroImages(templateImages: string[]): string[] {
 }
 
 export function getEffectiveContactImage(templateImage: string): string {
-  const lrImages = manifest?.rooms?.['living-room'];
-  if (lrImages && lrImages.length > 0) {
-    return lrImages[0];
+  const hqImages = manifest?.highQuality;
+  if (hqImages && hqImages.length > 0) {
+    // If there's multiple high quality images, use the last one for contact, or just the first if only one
+    return hqImages[hqImages.length - 1];
   }
   return templateImage;
 }

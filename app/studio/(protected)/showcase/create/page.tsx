@@ -78,12 +78,12 @@ export default function CreateShowcasePage() {
         <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', fontWeight: 500, margin: '0 0 16px' }}>
           Showcase Ready
         </h1>
-        <p style={{ color: '#555', margin: '0 0 40px', fontSize: '15px' }}>
+        <p style={{ color: 'var(--muted)', margin: '0 0 40px', fontSize: '15px' }}>
           Showcase for {clientName} · {selectedIds.length} items selected
         </p>
 
-        <div style={{ background: '#fff', border: '1px solid var(--line)', padding: '24px', borderRadius: '8px', marginBottom: '40px', textAlign: 'left', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
-          <div style={{ fontSize: '14px', fontFamily: 'monospace', color: '#333', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flexGrow: 1 }}>
+        <div style={{ background: 'var(--surface)', border: '1px solid var(--line)', padding: '24px', borderRadius: '8px', marginBottom: '40px', textAlign: 'left', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
+          <div style={{ fontSize: '14px', fontFamily: 'monospace', color: 'var(--charcoal)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flexGrow: 1 }}>
             {generatedUrl}
           </div>
           <button 
@@ -119,7 +119,7 @@ export default function CreateShowcasePage() {
         {/* Left: Project Selection */}
         <div style={{ minWidth: 0 }}>
           <div style={{ marginBottom: '32px' }}>
-            <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#555', marginBottom: '12px' }}>
+            <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginBottom: '12px' }}>
               Who is this showcase for?
             </label>
             <input 
@@ -132,7 +132,7 @@ export default function CreateShowcasePage() {
           </div>
 
           <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-            <label style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#555' }}>
+            <label style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)' }}>
               Choose Content
             </label>
             <button 
@@ -190,18 +190,18 @@ export default function CreateShowcasePage() {
                   onClick={() => toggleItem(item.id)}
                   style={{ 
                     border: `1px solid ${selected ? 'var(--charcoal)' : 'var(--line)'}`, 
-                    background: '#fff', 
+                    background: 'var(--surface)', 
                     cursor: 'pointer', 
                     position: 'relative',
                     overflow: 'hidden'
                   }}
                 >
-                  <div style={{ height: '140px', background: '#eee' }}>
+                  <div style={{ height: '140px', background: 'var(--stone)' }}>
                     <img src={item.image} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
                   </div>
                   <div style={{ padding: '12px' }}>
                     <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '14px', fontWeight: 500, marginBottom: '4px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{item.title}</div>
-                    <div style={{ fontSize: '10px', color: '#666', textTransform: 'uppercase', letterSpacing: '.05em' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.05em' }}>
                       {item.kind === 'portfolio' ? 'Portfolio Category' : item.category}
                     </div>
                   </div>
@@ -217,19 +217,19 @@ export default function CreateShowcasePage() {
         </div>
 
         {/* Right: Settings & Generate */}
-        <div style={{ position: 'sticky', top: '40px', background: '#fff', border: '1px solid var(--line)', padding: '24px' }}>
+        <div style={{ position: 'sticky', top: '40px', background: 'var(--surface)', border: '1px solid var(--line)', padding: '24px' }}>
           
           <div style={{ marginBottom: '32px' }}>
-            <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#555', marginBottom: '12px' }}>
+            <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginBottom: '12px' }}>
               Selected Content
             </div>
             {selectedIds.length === 0 ? (
-              <div style={{ fontSize: '13px', color: '#999', padding: '16px', background: '#f9f9f9', border: '1px dashed var(--line)', textAlign: 'center' }}>
+              <div style={{ fontSize: '13px', color: 'var(--muted)', padding: '16px', background: 'var(--surface)', border: '1px dashed var(--line)', textAlign: 'center' }}>
                 No items selected yet.
               </div>
             ) : (
               <div>
-                <div style={{ fontSize: '11px', color: '#666', marginBottom: '12px', fontWeight: 500 }}>
+                <div style={{ fontSize: '11px', color: 'var(--muted)', marginBottom: '12px', fontWeight: 500 }}>
                   {selectedIds.length} items selected ({selectedProjectsCount} project{selectedProjectsCount !== 1 ? 's' : ''} · {selectedPortfolioCount} portfolio categor{selectedPortfolioCount !== 1 ? 'ies' : 'y'})
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '300px', overflowY: 'auto', paddingRight: '8px' }}>
@@ -237,10 +237,10 @@ export default function CreateShowcasePage() {
                     const item = ALL_SHOWCASE_ITEMS.find(i => i.id === id);
                     if (!item) return null;
                     return (
-                      <div key={id} style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '13px', padding: '8px', background: '#fcfcfc', border: '1px solid var(--line)' }}>
-                        <div style={{ color: '#999', fontSize: '10px', minWidth: '16px' }}>{index + 1}.</div>
+                      <div key={id} style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '13px', padding: '8px', background: 'var(--surface)', border: '1px solid var(--line)' }}>
+                        <div style={{ color: 'var(--muted)', fontSize: '10px', minWidth: '16px' }}>{index + 1}.</div>
                         <div style={{ flexGrow: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{item.title}</div>
-                        <button onClick={(e) => { e.stopPropagation(); toggleItem(id); }} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#999' }}><X size={14}/></button>
+                        <button onClick={(e) => { e.stopPropagation(); toggleItem(id); }} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--muted)' }}><X size={14}/></button>
                       </div>
                     );
                   })}
@@ -249,7 +249,7 @@ export default function CreateShowcasePage() {
             )}
           </div>
 
-          <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: '#555', marginBottom: '16px' }}>
+          <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginBottom: '16px' }}>
             Showcase Settings
           </div>
           

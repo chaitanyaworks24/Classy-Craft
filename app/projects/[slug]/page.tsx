@@ -1,15 +1,15 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { projects } from '@/data/projects';
+import { getEffectiveProjects, getEffectiveProject } from '@/lib/studio-overrides';
 
 export function generateStaticParams() {
-  return projects.map(p => ({ slug: p.slug }))
+  return getEffectiveProjects().map(p => ({ slug: p.slug }))
 }
 
 export default async function ProjectDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const p = projects.find(x => x.slug === slug);
+  const p = getEffectiveProject(slug);
   if (!p) notFound();
 
   return (
@@ -45,27 +45,27 @@ export default async function ProjectDetail({ params }: { params: Promise<{ slug
             borderTop: '1px solid var(--line)'
           }}>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>HOME TYPE</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>HOME TYPE</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.homeType}</div>
             </div>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>STYLE</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>STYLE</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.style}</div>
             </div>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>AREA</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>AREA</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.areaSqFt} sq ft</div>
             </div>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>TIMELINE</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>TIMELINE</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.timelineWeeks} weeks</div>
             </div>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>INVESTMENT</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>INVESTMENT</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.budgetLabel}</div>
             </div>
             <div>
-              <div className="eyebrow" style={{ color: '#555', marginBottom: '8px' }}>LOCATION</div>
+              <div className="eyebrow" style={{ color: 'var(--muted)', marginBottom: '8px' }}>LOCATION</div>
               <div style={{ fontFamily: 'var(--font-playfair)', fontSize: '18px', color: 'var(--charcoal)' }}>{p.location}</div>
             </div>
           </div>

@@ -12,18 +12,18 @@ export default function StudioDashboard() {
         <h1 style={{ fontFamily: 'var(--font-playfair)', fontSize: '32px', fontWeight: 500, margin: '0 0 8px' }}>
           Good morning, {companyConfig.name}
         </h1>
-        <p style={{ color: '#555', margin: 0, fontSize: '15px' }}>
+        <p style={{ color: 'var(--muted)', margin: 0, fontSize: '15px' }}>
           Here’s what’s happening with your studio.
         </p>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '50px' }}>
-        <div style={{ background: '#fff', border: '1px solid var(--line)', padding: '24px' }}>
-          <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginBottom: '8px' }}>New Leads</div>
+        <div style={{ background: 'var(--surface)', border: '1px solid var(--line)', padding: '24px' }}>
+          <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginBottom: '8px' }}>New Leads</div>
           <div style={{ fontSize: '36px', fontFamily: 'var(--font-playfair)' }}>{leads.filter(l => l.status === 'New').length}</div>
         </div>
-        <div style={{ background: '#fff', border: '1px solid var(--line)', padding: '24px' }}>
-          <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.1em', color: '#888', marginBottom: '8px' }}>Showcases</div>
+        <div style={{ background: 'var(--surface)', border: '1px solid var(--line)', padding: '24px' }}>
+          <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--muted)', marginBottom: '8px' }}>Showcases</div>
           <div style={{ fontSize: '36px', fontFamily: 'var(--font-playfair)' }}>{showcases.length}</div>
         </div>
       </div>

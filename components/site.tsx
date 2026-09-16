@@ -150,14 +150,14 @@ export function Header() {
               <Link href="/about" style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.08em', fontWeight: 600 }}>About Us</Link>
               
               <MobileSubmenu label="Portfolio" href="/projects">
-                {portfolioLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: '#555' }}>{n}</Link>)}
+                {portfolioLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: 'var(--charcoal)' }}>{n}</Link>)}
               </MobileSubmenu>
               
               <MobileSubmenu label="Our Services" href="/services">
-                <span className="mobile-menu-label" style={{ fontSize: '9px', letterSpacing: '.12em', color: '#999', margin: '4px 0' }}>HOME INTERIOR</span>
-                {homeLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: '#555' }}>{n}</Link>)}
-                <span className="mobile-menu-label" style={{ fontSize: '9px', letterSpacing: '.12em', color: '#999', margin: '16px 0 4px' }}>COMMERCIAL</span>
-                {commercialLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: '#555' }}>{n}</Link>)}
+                <span className="mobile-menu-label" style={{ fontSize: '9px', letterSpacing: '.12em', color: 'var(--muted)', margin: '4px 0' }}>HOME INTERIOR</span>
+                {homeLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: 'var(--charcoal)' }}>{n}</Link>)}
+                <span className="mobile-menu-label" style={{ fontSize: '9px', letterSpacing: '.12em', color: 'var(--muted)', margin: '16px 0 4px' }}>COMMERCIAL</span>
+                {commercialLinks.map(([n, h]) => <Link key={h} href={h} style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '.06em', padding: '4px 0', color: 'var(--charcoal)' }}>{n}</Link>)}
               </MobileSubmenu>
               
               <Link href="/contact" style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '.08em', fontWeight: 600 }}>Contact</Link>
